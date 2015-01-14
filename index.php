@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="revisit-after" content="7 days">
+    <link href='http://fonts.googleapis.com/css?family=Caudex:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/static/styles/css/core.css" media="screen">
     <link rel="stylesheet" href="/static/styles/css/print.css" media="print">
@@ -20,38 +21,44 @@
     <link rel="apple-touch-icon" sizes="152x152" href="/static/images/logos/apple-touch-icon-152x152.png" />
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script>window.jQuery || document.write('<script src="/static/scripts/lib/jquery.min.js"><\/script>')</script>
+
     <!--[if lte IE 9]>
         <script src="/assets/libraries/js/html5shiv.js"></script>
     <![endif]-->
     <script src="/static/scripts/lib/modernizr.min.js"></script>
 
     <!-- SEO tags -->
-    <title>Building Better Quality | BBQ</title>
+    <title>Alexander Ward | UI Developer and usability consultant</title>
 
-    <link rel="canonical" href="https://bbqdigital.com/" />
-    <meta name="description" content="A full-service digital agency based in Southampton, Hampshire. Specialists in responsive web design. Building Better Quality websites for your customers" />
+    <link rel="canonical" href="http://alexward.me.uk/" />
+    <meta name="description" content="I am a highly skilled and experienced UI developer and usability consultant. I am available for contracts in the London area." />
     <meta property="og:locale" content="en_UK" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Building Better Quality | BBQ Digital" />
-    <meta property="og:description" content="A full-service digital agency based in Southampton, Hampshire. Specialists in responsive web design. Building Better Quality websites for your customers" />
-    <meta property="og:image" content="https://bbqdigital.com/static/images/logos/bbq-logo.jpg"/>
-    <meta property="og:url" content="https://bbqdigital.com/" />
-    <meta property="og:site_name" content="BBQ Digital" />
+    <meta property="og:title" content="Alexander Ward | UI Developer and usability consultant" />
+    <meta property="og:description" content="I am a highly skilled and experienced UI developer and usability consultant. I am available for contracts in the London area." />
+    <meta property="og:image" content="http://alexward.me.uk/static/images/alex-avi.jpg"/>
+    <meta property="og:url" content="http://alexward.me.uk/" />
+    <meta property="og:site_name" content="Alex Ward" />
 </head>
 <body>
     <div class="skip"><a href="#main">Skip to main content</a></div>
-    <section class="is-available">
-        <header>
-            <h1>I'm Alexander Ward. I design and build UX focused websites.</h1>
-        </header>
-        <div class="cta">
-            <p>I'm <strong>currently available</strong> for projects in the <strong>London</strong> area.</p>
-            <a href="" class="button">Get in touch</a>
+    <section class="status is-available">
+        <div>
+            <header>
+                <h1>I'm Alexander Ward. <br /> I design and build <strong>UX focused</strong> websites</h1>
+            </header>
         </div>
-        <span class="scrolly">scrolly, scrolly!</span>
+        <img class="alex" src="/static/images/alex-available.png" alt="An illustration of me, Alex Ward.">
+        <div>
+            <div class="cta">
+                <p>I'm <strong>currently available</strong> for projects in the <strong>London</strong> area</p>
+                <a href="" class="button">Get in touch</a>
+            </div>
+            <span class="scrolly">scrolly, scrolly!</span>
+        </div>
     </section>
     <section class="skills">
-        <h1>Skills to pay the bills</h1>
+        <h2>Skills to pay the bills</h2>
         <p>I've been in the web industry for a long time (since 1998 to be exact) and over that time I've aquired a wide range of skills. </p>
         <div class="skill-table">
             <div class="col max-3">
@@ -78,10 +85,11 @@
                 </ul>
             </div>
             <div class="col max-3">
-                <h2>Competent Beginner</h2>
+                <h2>Competent</h2>
                 <ul>
+                    <li>Angular.js</li>
                     <li>Node.js</li>
-                    <li>Symfont 2 framework</li>
+                    <li>PHP MVC Frameworks (eg Symfony 2, Laravel etc...)</li>
                     <li>CMS Templating (Drual, EpiServer, Umbraco)</li>
                     <li>Illustration</li>
                     <li>3D Modelling</li>
@@ -155,5 +163,6 @@
         &copy;MMIV Alexander Ward and BBQ Digital Limited. All Rights reserved.<br />
         Registered in England &amp; Wales 08480746.
     </footer>
+
 </body>
 </html>

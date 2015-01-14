@@ -1,0 +1,121 @@
+/* This is where all custom styles are held */
+
+/* Global styles */
+body {
+    font-family: $fontFamily;
+    color: #333;
+}
+
+.skip {
+    a {
+        position: absolute;
+        top:-80px;
+        display: block;
+        width: 100%;
+        box-sizing:border-box;
+        padding:1em;
+        font-size: 1.6em;
+        text-align: center;
+        background:#f00;
+        color: #fff;
+        z-index: 999999;
+        -webkit-transition: top 1s; /* For Safari 3.1 to 6.0 */
+        transition: top 1s;
+
+        &:focus { top:0; }
+    }
+}
+.no-js .wrapper .warnings { position: static; }
+
+.for-print,
+.js .js-disabled { display: none; }
+
+body > section {
+
+    h2 {
+        padding: 1em;
+        color: #fff;
+        font-size: 2em;
+        background-color: rgba(0,0,0,0.2);
+        font-family: $fontFamily2;
+    }
+
+    &.status {
+        height:100%;
+        > div {
+            background-color: #bbe6f8;
+            height: 38%;
+        }
+
+        > div ~ div {
+            background-image: url('/static/images/backdrop-available.png');
+            background-repeat: repeat-x;
+            background-color: #666633;
+            height: 62%;
+        }
+
+        header {
+            padding: 1rem 2rem;
+        }
+
+        h1 {
+            color: #436B7C;
+            font-family: $fontFamily2;
+            font-size: 4.2rem;
+        }
+
+        .alex {
+            position:absolute;
+            right: 2%;
+            bottom: 2%;
+        }
+
+        .cta {
+            width: 70%;
+            padding: 16rem 2rem;
+            color: #fff;
+            font-size: 2rem;
+
+            .button {
+                display: inline-block;
+                margin-top: 0.5rem;
+            }
+        }
+    }
+
+    &.skills {
+        height: 70%;
+        background-color: #3D82CD;
+
+        > h2 { text-align: right; }
+
+        .skill-table {
+            margin-top: 1em;
+            h2 { font-size:1.4em; }
+            ul { padding:1em 1.5em;}
+            .col {
+                height: 100%;
+                color: #fff;
+                background-color: #BEA241;
+            }
+            .col:first-child {
+                background-color: #1ABE30;
+            }
+            .col:last-child {
+                background-color: #BE501A;
+            }
+        }
+
+    }
+
+    .scrolly {
+        position:absolute;
+        bottom:1%;
+        left:1%;
+        font-size: 1.6em;
+        font-weight: bold;
+        color:#fff;
+    }
+}
+
+

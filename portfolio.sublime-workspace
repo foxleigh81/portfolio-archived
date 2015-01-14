@@ -1,0 +1,280 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bgz",
+				"bgsz-ct	background-size: contain;"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"ff",
+				"ff-a	font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;"
+			],
+			[
+				"no",
+				"normal"
+			],
+			[
+				"el",
+				"element"
+			],
+			[
+				"compre",
+				"compressed_header"
+			],
+			[
+				"abs",
+				"absolute"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 93.0,
+		"selected_items":
+		[
+			[
+				"markdown",
+				"WordPress Readme to Markdown"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Convert Case: Lower Case"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"IN",
+				"Package Control: Install Package"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 110.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/alexward/dev/alexward.me.uk"
+	],
+	"file_history":
+	[
+		"/Volumes/web/index2.html",
+		"/Users/alexward/Desktop/wardyweb.html",
+		"/Users/alexward/geeklets/GeekWeather2/geekWeather2.sh",
+		"/Users/alexward/dev/alexward.me.uk/index.php",
+		"/Users/alexward/dev/bbq/bbq-website/build/HTML/kit/order.kit",
+		"/Users/alexward/dev/bbq/bbq-website/www/perch/core/.gitignore",
+		"/Users/alexward/dev/bbq/bbq-website/build/HTML/kit/includes/footer.kit",
+		"/Users/alexward/dev/bbq/bbq-website/www/perch/templates/pages/attributes/seo.html",
+		"/Users/alexward/dev/bbq/bbq-website/www/perch/templates/content/brands_section.html",
+		"/Users/alexward/dev/bbq/bbq-website/www/perch/templates/content/landing_section.html",
+		"/Users/alexward/dev/bbq/bbq-website/www/perch/templates/pages/generic_content.php",
+		"/Users/alexward/dev/bbq/bbq-website/www/faq.php",
+		"/Users/alexward/dev/bbq/bbq-website/www/perch/templates/content/header_image_section.html",
+		"/Users/alexward/dev/bbq/bbq-website/www/what-we-do.php",
+		"/Users/alexward/dev/bbq/bbq-website/www/perch/templates/content/faq_section.html",
+		"/Users/alexward/dev/bbq/bbq-website/www/perch/templates/content/icon_list_section.html",
+		"/Users/alexward/dev/bbq/bbq-website/www/why-bbq.php",
+		"/Users/alexward/dev/bbq/bbq-website/www/about-us.php",
+		"/Users/alexward/dev/bbq/bbq-website/www/perch/templates/content/staff_section.html",
+		"/Users/alexward/dev/bbq/bbq-website/www/perch/templates/content/standard_content_section.html",
+		"/Users/alexward/dev/bbq/bbq-website/www/index.php",
+		"/Users/alexward/dev/bbq/bbq-website/www/perch/config/buckets.php",
+		"/Users/alexward/dev/bbq/bbq-website/www/perch/templates/content/testimonials_section.html",
+		"/Users/alexward/dev/bbq/bbq-website/www/perch/templates/layouts/global.header.php",
+		"/Users/alexward/dev/bbq/bbq-website/www/contact-us.php",
+		"/Users/alexward/dev/bbq/bbq-website/www/error.php",
+		"/Users/alexward/dev/bbq/bbq-website/www/perch/config/apps.php",
+		"/Users/alexward/dev/bbq/bbq-website/www/includes/header.php",
+		"/Users/alexward/dev/bbq/bbq-website/www/terms-and-conditions.php",
+		"/Users/alexward/dev/bbq/bbq-website/www/sitemap.php",
+		"/Users/alexward/dev/bbq/bbq-website/www/privacy-policy.php",
+		"/Users/alexward/dev/bbq/bbq-website/www/includes/logo_slogan.php",
+		"/Users/alexward/dev/bbq/bbq-website/www/.htaccess",
+		"/Users/alexward/dev/bbq/bbq-website/www/perch/templates/pages/default.php",
+		"/Users/alexward/dev/bbq/bbq-website/www/static/styles/css/core.css",
+		"/Users/alexward/dev/bbq/bbq-website/www/includes/footer.php",
+		"/Users/alexward/dev/bbq/bbq-website/build/config/live/.htaccess",
+		"/Users/alexward/dev/bbq/bbq-website/www/static/styles/sass/responsive.scss",
+		"/Users/alexward/dev/bbq/bbq-website/www/static/styles/sass/custom.scss",
+		"/Users/alexward/dev/bbq/bbq-website/www/static/scripts/modules/custom.js",
+		"/Users/alexward/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/alexward/Library/Application Support/Sublime Text 3/Packages/Default/Default ().sublime-keymap",
+		"/Users/alexward/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"flex:1;",
+			"flex",
+			">\n",
+			".warning",
+			"warning"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "portfolio.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 314.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

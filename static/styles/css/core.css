@@ -1,0 +1,229 @@
+/* Alex Ward's Custom YUI2 Reset */
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, header, article, section, nav, figure, aside, hgroup, footer {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0;
+  outline: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol, ul {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+q:before, q:after {
+  content: ''; }
+
+a {
+  text-decoration: none;
+  outline: none; }
+
+abbr, acronym {
+  border: 0; }
+
+input, textarea {
+  -webkit-appearance: none; }
+
+header, article, section, nav, figure, aside, hgroup, footer {
+  display: block; }
+
+body, html {
+  height: 100%; }
+
+html, html a {
+  -webkit-font-smoothing: antialiased !important; }
+
+select::-ms-expand {
+  display: none; }
+
+body {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0; }
+
+strong {
+  font-weight: bold; }
+
+p em {
+  font-style: italic; }
+
+/* Any text inside a paragraph should be formatted normally */
+/* The classes below are not to be used in Markup, they are for sass imports only */
+.extraBold {
+  font-weight: 600; }
+
+.black, .mainH1Style {
+  font-weight: 900; }
+
+.mainH1Style {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em; }
+
+.bodyTextStyle {
+  font-size: 1.6em;
+  line-height: 1.6em; }
+
+.resetFontSize {
+  font-size: 1em;
+  line-height: 1em; }
+
+/* This is where all global classes are held, use of !important is ONLY permitted on this page */
+/* Common classes */
+.hide {
+  display: none !important; }
+
+.fl {
+  float: left !important; }
+
+.fr {
+  float: right !important; }
+
+.small {
+  font-size: 1em !important; }
+
+.large {
+  font-size: 3em !important; }
+
+.tac {
+  text-align: center; }
+
+/* Grid */
+.col {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box; }
+
+.max-1 {
+  width: 100%; }
+
+.max-2 {
+  width: 50%; }
+
+.max-3 {
+  width: 33%; }
+
+.max-4 {
+  width: 25%; }
+
+/* Reusable elements */
+.button {
+  /* defaults */
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #659758;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  font-size: 1.5rem;
+  font-weight: bold; }
+
+/* This is where all custom styles are held */
+/* Global styles */
+body {
+  font-family: "Lato", arial, sans-serif;
+  color: #333; }
+
+.skip a {
+  position: absolute;
+  top: -80px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+  font-size: 1.6em;
+  text-align: center;
+  background: #f00;
+  color: #fff;
+  z-index: 999999;
+  -webkit-transition: top 1s;
+  /* For Safari 3.1 to 6.0 */
+  transition: top 1s; }
+  .skip a:focus {
+    top: 0; }
+
+.no-js .wrapper .warnings {
+  position: static; }
+
+.for-print,
+.js .js-disabled {
+  display: none; }
+
+body > section h2 {
+  padding: 1em;
+  color: #fff;
+  font-size: 2em;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-family: "Caudex", garamond, serif; }
+body > section.status {
+  height: 100%; }
+  body > section.status > div {
+    background-color: #bbe6f8;
+    height: 38%; }
+  body > section.status > div ~ div {
+    background-image: url("/static/images/backdrop-available.png");
+    background-repeat: repeat-x;
+    background-color: #666633;
+    height: 62%; }
+  body > section.status header {
+    padding: 1rem 2rem; }
+  body > section.status h1 {
+    color: #436B7C;
+    font-family: "Caudex", garamond, serif;
+    font-size: 4.2rem; }
+  body > section.status .alex {
+    position: absolute;
+    right: 2%;
+    bottom: 2%; }
+  body > section.status .cta {
+    width: 70%;
+    padding: 16rem 2rem;
+    color: #fff;
+    font-size: 2rem; }
+    body > section.status .cta .button {
+      display: inline-block;
+      margin-top: 0.5rem; }
+body > section.skills {
+  height: 70%;
+  background-color: #3D82CD; }
+  body > section.skills > h2 {
+    text-align: right; }
+  body > section.skills .skill-table {
+    margin-top: 1em; }
+    body > section.skills .skill-table h2 {
+      font-size: 1.4em; }
+    body > section.skills .skill-table ul {
+      padding: 1em 1.5em; }
+    body > section.skills .skill-table .col {
+      height: 100%;
+      color: #fff;
+      background-color: #BEA241; }
+    body > section.skills .skill-table .col:first-child {
+      background-color: #1ABE30; }
+    body > section.skills .skill-table .col:last-child {
+      background-color: #BE501A; }
+body > section .scrolly {
+  position: absolute;
+  bottom: 1%;
+  left: 1%;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #fff; }
+
+/* This is where all media queries are held */
+/* The styles in this sheet are only visible when JS is enabled */
+/* test */
