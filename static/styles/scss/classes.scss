@@ -7,6 +7,7 @@
 .small { font-size: 1em !important; }
 .large { font-size: 3em !important; }
 .tac { text-align: center; }
+.clear { clear: both; }
 
 /* Grid */
 .col {
@@ -16,7 +17,7 @@
 }
 
 .max-1 { width: 100%; }
-.max-2 { width: 50%; }
+.max-2 { width: 49.9%; }
 .max-3 { width: 33% }
 .max-4 { width: 25%; }
 
@@ -25,9 +26,9 @@
 .button {
     /* defaults */
     background-color:rgba(#fff, 0.6);
-    color: #659758;
     padding:0.5em 1em;
     border-radius: 0.5em;
     font-size: 1.5rem;
     font-weight: bold;
+    border:0;
 }

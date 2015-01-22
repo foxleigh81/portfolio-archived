@@ -3,7 +3,7 @@
 /* Global styles */
 body {
     font-family: $fontFamily;
-    color: #333;
+    color: #fff;
 }
 
 .skip {
@@ -31,37 +31,40 @@ body {
 .js .js-disabled { display: none; }
 
 body > section {
-
+    overflow: hidden;
     h2 {
         padding: 1em;
-        color: #fff;
-        font-size: 2em;
+        font-size: 2.5em;
         background-color: rgba(0,0,0,0.2);
         font-family: $fontFamily2;
+        font-weight: bold;
+    }
+
+    .text-wrap {
+        font-size: 2.5em;
+        color: #fff;
+        padding: 1.5em 1em;
     }
 
     &.status {
         height:100%;
+
         > div {
             background-color: #bbe6f8;
-            height: 38%;
         }
 
         > div ~ div {
             background-image: url('/static/images/backdrop-available.png');
             background-repeat: repeat-x;
             background-color: #666633;
-            height: 62%;
         }
 
-        header {
-            padding: 1rem 2rem;
-        }
+        header { padding: 1em 2em; }
 
         h1 {
             color: #436B7C;
             font-family: $fontFamily2;
-            font-size: 4.2rem;
+            font-size: 9em;
         }
 
         .alex {
@@ -72,40 +75,143 @@ body > section {
 
         .cta {
             width: 70%;
-            padding: 16rem 2rem;
-            color: #fff;
-            font-size: 2rem;
+            padding: 6.5em 0.5em;
+            font-size: 4em;
 
             .button {
                 display: inline-block;
-                margin-top: 0.5rem;
+                margin-top: 0.5em;
+                color: #659758;
             }
         }
     }
 
     &.skills {
-        height: 70%;
         background-color: #3D82CD;
 
-        > h2 { text-align: right; }
+        img {
+            float: left;
+            margin: 6em 2em 0;
+            height: auto;
+            width:30%;
+        }
 
         .skill-table {
             margin-top: 1em;
+            margin-bottom: 1em;
+            display:flex;
+            display:-webkit-flex;
+            justify-content: space-around;
             h2 { font-size:1.4em; }
             ul { padding:1em 1.5em;}
-            .col {
-                height: 100%;
-                color: #fff;
+            li { margin-bottom: 0.4em; }
+            .cell {
+                min-height: 100%;
+                flex-basis: 32.5%;
                 background-color: #BEA241;
+                font-size: 1.5em;
             }
-            .col:first-child {
+            .cell:first-child {
                 background-color: #1ABE30;
             }
-            .col:last-child {
+            .cell:last-child {
                 background-color: #BE501A;
             }
         }
 
+    }
+
+    &.brands {
+        background-color: #CD4A3D;
+
+        > h2 { text-align: right; }
+
+        img {
+            float: right;
+            margin: 2em;
+            height: 100%;
+            width:28%;
+        }
+
+        ul {
+            margin: 0 2.5em;
+            display: flex;
+            display: -webkit-flex;
+            justify-content: space-around;
+            flex-flow: row wrap;
+        }
+
+        li {
+            text-align: center;
+            padding:4em 2em;
+            flex-basis: 32%;
+            margin-bottom: 1%;
+            background-color: rgba(0,0,0,0.2);
+        }
+    }
+
+    &.references {
+        background-color: #7A9F2C;
+        img {
+            float: left;
+            margin: 2em;
+            height: 100%;
+            width:28%;
+        }
+
+        ul { margin: 2em; }
+
+        li {
+            display: block;
+            margin-bottom: 1.5em;
+        }
+
+        blockquote { font-size: 2em; }
+
+    }
+
+    &.contact {
+        background-color: #8856BB;
+
+        > h2 { text-align: right; }
+
+        a { color: darken(#8856BB, 40%)};
+        a:hover { color: darken(#8856BB, 60%)};
+
+        .details {
+            padding:1em 0;
+            span {
+                display: block;
+                margin-bottom: 0.5em;
+            }
+        }
+
+        form {
+            padding:4em 2em;
+
+            legend { display: none; }
+
+            .input-container { margin-bottom: 1em; }
+
+            label {
+                display: block;
+                font-size: 1.6em;
+                margin-bottom: 0.5em;
+            }
+
+            input, textarea {
+                width: 100%;
+                padding:1em;
+                background-color: #fff;
+                border:0;
+            }
+
+            button {
+                width: 100%;
+                font-size: 1.6em;
+                color: darken(#8856BB, 40%);
+            }
+        }
     }
 
     .scrolly {
