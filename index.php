@@ -156,6 +156,7 @@
     </section>
     <section class="contact">
         <h2>Get in touch!</h2>
+        <img src="/static/images/alex-phone.svg" width="20%" alt="An illustration of me, Alex Ward holding a cup of tea and talking on the phone.">
         <div class="col max-2">
             <div class="text-wrap">
                 <p>I’ve recently moved to the amazing city of London and I’m currently available for contract work. If you wish to hire me for a contract or  project, please contact me either using the form or the details below.</p>

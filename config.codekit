@@ -11,6 +11,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/static\/images\/2DF00BDD68E169AF.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/static\/images\/2DF00BDD68E169AF.png",
+		"outputAbbreviatedPath": "\/static\/images\/2DF00BDD68E169AF.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/static\/images\/alex-available.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -73,6 +84,94 @@
 		"initialSize": 7991,
 		"inputAbbreviatedPath": "\/static\/images\/backdrop-available.png",
 		"outputAbbreviatedPath": "\/static\/images\/backdrop-available.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/brands\/bandq.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5759,
+		"inputAbbreviatedPath": "\/static\/images\/brands\/bandq.png",
+		"outputAbbreviatedPath": "\/static\/images\/brands\/bandq.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/brands\/bowmore.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28823,
+		"inputAbbreviatedPath": "\/static\/images\/brands\/bowmore.png",
+		"outputAbbreviatedPath": "\/static\/images\/brands\/bowmore.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/brands\/everest.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12919,
+		"inputAbbreviatedPath": "\/static\/images\/brands\/everest.png",
+		"outputAbbreviatedPath": "\/static\/images\/brands\/everest.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/brands\/honda.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42337,
+		"inputAbbreviatedPath": "\/static\/images\/brands\/honda.png",
+		"outputAbbreviatedPath": "\/static\/images\/brands\/honda.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/brands\/nhs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20771,
+		"inputAbbreviatedPath": "\/static\/images\/brands\/nhs.png",
+		"outputAbbreviatedPath": "\/static\/images\/brands\/nhs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/brands\/pampers.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45259,
+		"inputAbbreviatedPath": "\/static\/images\/brands\/pampers.png",
+		"outputAbbreviatedPath": "\/static\/images\/brands\/pampers.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/brands\/pandg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42088,
+		"inputAbbreviatedPath": "\/static\/images\/brands\/pandg.png",
+		"outputAbbreviatedPath": "\/static\/images\/brands\/pandg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/brands\/plusnet.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20749,
+		"inputAbbreviatedPath": "\/static\/images\/brands\/plusnet.png",
+		"outputAbbreviatedPath": "\/static\/images\/brands\/plusnet.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

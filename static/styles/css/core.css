@@ -271,6 +271,8 @@ body > section {
     background-color: #8856BB; }
     body > section.contact > h2 {
       text-align: right; }
+    body > section.contact img {
+      padding: 1em; }
     body > section.contact a {
       color: #fff; }
     body > section.contact a:hover {
