@@ -54,7 +54,7 @@ body > section {
         }
 
         > div ~ div {
-            background-image: url('/static/images/backdrop-available.png');
+            background-image: url('/static/images/backdrop-available.svg');
             background-repeat: repeat-x;
             background-color: #666633;
         }
@@ -126,7 +126,7 @@ body > section {
 
         > h2 { text-align: right; }
 
-        img {
+        > img {
             float: right;
             margin: 2em;
             height: 100%;
@@ -143,10 +143,15 @@ body > section {
 
         li {
             text-align: center;
-            padding:4em 2em;
+            padding:2em 2em;
             flex-basis: 32%;
             margin-bottom: 1%;
             background-color: rgba(0,0,0,0.2);
+
+            img {
+                width:100%;
+                height: auto;
+            }
         }
     }
 
@@ -175,8 +180,8 @@ body > section {
 
         > h2 { text-align: right; }
 
-        a { color: darken(#8856BB, 40%)};
-        a:hover { color: darken(#8856BB, 60%)};
+        a { color: #fff; }
+        a:hover { color: darken(#8856BB, 30%); }
 
         .details {
             padding:1em 0;
@@ -224,4 +229,4 @@ body > section {
     }
 }
 
-
+footer { background-color: #424242; }

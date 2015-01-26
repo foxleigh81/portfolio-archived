@@ -33,6 +33,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/static\/images\/alex-blushing.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19417,
+		"inputAbbreviatedPath": "\/static\/images\/alex-blushing.png",
+		"outputAbbreviatedPath": "\/static\/images\/alex-blushing.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/static\/images\/alex-smile.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -62,6 +73,17 @@
 		"initialSize": 7991,
 		"inputAbbreviatedPath": "\/static\/images\/backdrop-available.png",
 		"outputAbbreviatedPath": "\/static\/images\/backdrop-available.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/brands\/sse.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/static\/images\/brands\/sse.png",
+		"outputAbbreviatedPath": "\/static\/images\/brands\/sse.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

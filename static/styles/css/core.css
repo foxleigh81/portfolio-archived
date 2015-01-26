@@ -180,7 +180,7 @@ body > section {
     body > section.status > div {
       background-color: #bbe6f8; }
     body > section.status > div ~ div {
-      background-image: url("/static/images/backdrop-available.png");
+      background-image: url("/static/images/backdrop-available.svg");
       background-repeat: repeat-x;
       background-color: #666633; }
     body > section.status header {
@@ -233,7 +233,7 @@ body > section {
     background-color: #CD4A3D; }
     body > section.brands > h2 {
       text-align: right; }
-    body > section.brands img {
+    body > section.brands > img {
       float: right;
       margin: 2em;
       height: 100%;
@@ -246,10 +246,13 @@ body > section {
       flex-flow: row wrap; }
     body > section.brands li {
       text-align: center;
-      padding: 4em 2em;
+      padding: 2em 2em;
       flex-basis: 32%;
       margin-bottom: 1%;
       background-color: rgba(0, 0, 0, 0.2); }
+      body > section.brands li img {
+        width: 100%;
+        height: auto; }
   body > section.references {
     background-color: #7A9F2C; }
     body > section.references img {
@@ -269,9 +272,9 @@ body > section {
     body > section.contact > h2 {
       text-align: right; }
     body > section.contact a {
-      color: #221431; }
+      color: #fff; }
     body > section.contact a:hover {
-      color: black; }
+      color: #3c2256; }
     body > section.contact .details {
       padding: 1em 0; }
       body > section.contact .details span {
@@ -303,6 +306,9 @@ body > section {
     font-size: 1.6em;
     font-weight: bold;
     color: #fff; }
+
+footer {
+  background-color: #424242; }
 
 /* This is where all media queries are held */
 /* The styles in this sheet are only visible when JS is enabled */

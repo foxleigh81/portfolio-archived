@@ -48,7 +48,7 @@
                 <h1>I'm Alexander Ward. <br /> I design and build <strong>UX focused</strong> websites</h1>
             </header>
         </div>
-        <img class="alex" src="/static/images/alex-available.png" alt="An illustration of me, Alex Ward.">
+        <img class="alex" src="/static/images/alex-available.svg" width="20%" alt="An illustration of me, Alex Ward.">
         <div>
             <div class="cta">
                 <p>I'm <strong>currently available</strong> for projects in the <strong>London</strong> area</p>
@@ -59,7 +59,7 @@
     </section>
     <section class="skills">
         <h2>Skills to pay the bills</h2>
-        <img src="/static/images/alex-tables.png" alt="An illustration of me, Alex Ward, wearing a tshirt saying 'we used to build websites with tables'">
+        <img src="/static/images/alex-tables.svg" width="20%" alt="An illustration of me, Alex Ward, wearing a tshirt saying 'we used to build websites with tables'">
         <div class="text-wrap">
             <p>I've been in the web industry for a long time (since 1998 to be exact) and over that time I've aquired a wide range of skills. </p>
         </div>
@@ -67,13 +67,15 @@
             <div class="cell max-3">
                 <h2>Expert</h2>
                 <ul>
-                    <li>HTML/CSS3</li>
+                    <li>Usability (UX)</li>
+                    <li>xHTML/HTML5</li>
+                    <li>CSS (including CSS3)</li>
                     <li>SASS/LESS</li>
                     <li>jQuery</li>
                     <li>Responsive Design</li>
                     <li>Accessibility</li>
                     <li>Procedural PHP</li>
-                    <li>Git/SVN</li>
+                    <li>Git</li>
                 </ul>
             </div>
             <div class="cell max-3">
@@ -101,26 +103,26 @@
     </section>
     <section class="brands">
         <h2>I love the brands I've worked with &hellip;</h2>
-        <img src="/static/images/alex-smile.png" alt="An illustration of me, Alex Ward smiling.">
+        <img src="/static/images/alex-smile.svg" width="20%" alt="An illustration of me, Alex Ward smiling.">
         <div class="text-wrap">
             <p>I've been fortunate enough to work with some amazing brands over the years.</p>
             <p>Here are a few of my favourites:</p>
         </div>
         <ul>
-            <li>SSE</li>
-            <li>B&amp;Q</li>
-            <li>Honda</li>
-            <li>Everest</li>
-            <li>Bowmore</li>
-            <li>P&amp;G</li>
-            <li>Pampers</li>
-            <li>Iams</li>
-            <li>Plusnet</li>
+            <li><img src="/static/images/brands/sse.png" alt="SSE"></li>
+            <li><img src="/static/images/brands/bandq.png" alt="B&amp;Q"></li>
+            <li><img src="/static/images/brands/honda.png" alt="Honda"></li>
+            <li><img src="/static/images/brands/everest.png" alt="Everest"></li>
+            <li><img src="/static/images/brands/bowmore.png" alt="Bowmore"></li>
+            <li><img src="/static/images/brands/pandg.png" alt="P&amp;G"></li>
+            <li><img src="/static/images/brands/pampers.png" alt="Pampers"></li>
+            <li><img src="/static/images/brands/nhs.png" alt="NHS"></li>
+            <li><img src="/static/images/brands/plusnet.png" alt="Plusnet"></li>
         </ul>
     </section>
     <section class="references">
         <h2>&hellip; and I think they love me too!</h2>
-        <img src="/static/images/alex-blushing.png" alt="An illustration of me, Alex Ward blushing.">
+        <img src="/static/images/alex-blushing.svg" width="20%" alt="An illustration of me, Alex Ward blushing.">
         <ul>
             <li>
                 <blockquote itemprop="review">
@@ -161,6 +163,7 @@
                     <span><strong>Telephone:</strong> <a href="tel:07538943004" itemprop="telephone">07538 943004</a></span>
                     <span><strong>Email:</strong> <a href="mailto:alex@alexward.me.uk" itemprop="email">alex@alexward.me.uk</a></span>
                     <span><strong>Skype:</strong> alexward1981</span>
+                    <span><strong>Carrier Pigeon:</strong> No longer available</span>
                 </div>
                 <p><strong>Notice to agents:</strong> Please don’t contact me for permanent roles, I love contracting and no power in the verse will take me away from it.</p>
             </div>
