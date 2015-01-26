@@ -45,7 +45,7 @@
     <section class="status is-available">
         <div>
             <header>
-                <h1>I'm Alexander Ward. <br /> I design and build <strong>UX focused</strong> websites</h1>
+                <h1>I'm Alex. <br /> I design and build <strong>UX focused</strong> websites</h1>
             </header>
         </div>
         <img class="alex" src="/static/images/alex-available.svg" width="20%" alt="An illustration of me, Alex Ward.">
@@ -203,7 +203,7 @@
         </div>
     </section>
     <footer>
-        &copy;MMIV Alexander Ward and BBQ Digital Limited. All Rights reserved.<br />
+        &copy;MMV Alexander Ward and BBQ Digital Limited. All Rights reserved.<br />
         Registered in England &amp; Wales 08480746.
     </footer>
 

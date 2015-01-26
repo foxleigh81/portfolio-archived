@@ -310,6 +310,8 @@ body > section {
     color: #fff; }
 
 footer {
+  padding: 1em;
+  font-size: 1.4em;
   background-color: #424242; }
 
 /* This is where all media queries are held */
