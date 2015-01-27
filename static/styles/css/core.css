@@ -170,8 +170,8 @@ body {
 
 .social {
   position: absolute;
-  right: 0.5em;
-  top: 0.5em; }
+  right: 1em;
+  top: 1em; }
   .social li {
     display: inline-block; }
   .social a {
@@ -218,7 +218,7 @@ body > section {
       background-repeat: no-repeat;
       background-position: bottom center;
       background-color: #bbe6f8;
-      padding: 1em 2em 12%; }
+      padding: 1em 2em 12% 0; }
     body > section.status > div ~ div {
       padding: 0;
       background-image: url("/static/images/backdrop-available.svg");
@@ -227,11 +227,11 @@ body > section {
       background-color: #666633; }
     body > section.status header {
       width: 50%;
-      padding: 1em 0.5em;
+      padding: 1em 0.5em 2.5em;
       color: #333;
       background-color: rgba(255, 255, 255, 0.6);
       text-align: center;
-      border-radius: 5px; }
+      border-radius: 0 5px 5px 0; }
     body > section.status h1 {
       text-transform: uppercase;
       font-family: "Caudex", garamond, serif;

@@ -32,8 +32,8 @@ body {
 
 .social {
     position: absolute;
-    right:0.5em;
-    top:0.5em;
+    right:1em;
+    top:1em;
     li { display: inline-block; }
     a {
         display: block;
@@ -84,7 +84,7 @@ body > section {
             background-repeat: no-repeat;
             background-position: bottom center;
             background-color: #bbe6f8;
-            padding: 1em 2em 12%;
+            padding: 1em 2em 12% 0;
         }
 
         > div ~ div {
@@ -97,11 +97,11 @@ body > section {
 
         header {
             width:50%;
-            padding:1em 0.5em;
+            padding:1em 0.5em 2.5em;
             color:#333;
             background-color: rgba(#fff, 0.6);
             text-align: center;
-            border-radius:5px;
+            border-radius: 0 5px 5px 0;
         }
 
         h1 {
