@@ -1,3 +1,9 @@
+/* Hey there! */
+/* I had a feeling that you would stop by and take a look at my code. */
+/* Normally I'd minify all my CSS and JS but in this instance I've */
+/* decided to leave it uncompressed, makes reading it a little easier */
+/* for you. It's ok you don't need to thank me, just get me a beer */
+/* if you ever see me in the pub :) */
 /* Alex Ward's Custom YUI2 Reset */
 div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, header, article, section, nav, figure, aside, hgroup, footer {
   margin: 0;
@@ -60,7 +66,6 @@ p em {
   font-style: italic; }
 
 /* Any text inside a paragraph should be formatted normally */
-/* The classes below are not to be used in Markup, they are for sass imports only */
 .extraBold {
   font-weight: 600; }
 
@@ -163,6 +168,36 @@ body {
 .js .js-disabled {
   display: none; }
 
+.social {
+  position: absolute;
+  right: 0.5em;
+  top: 0.5em; }
+  .social li {
+    display: inline-block; }
+  .social a {
+    display: block;
+    color: #333;
+    padding: 0.4em;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    font-size: 2em;
+    margin-left: 0.1em;
+    -webkit-transition: background-color 0.4s, color 0.2s;
+            transition: background-color 0.4s, color 0.2s; }
+    .social a span {
+      position: absolute;
+      left: -9999px; }
+    .social a:hover {
+      color: #fff; }
+      .social a:hover.fa-facebook-official {
+        background-color: #47639E; }
+      .social a:hover.fa-twitter {
+        background-color: #55ACEE; }
+      .social a:hover.fa-dribbble {
+        background-color: #C01C6F; }
+      .social a:hover.fa-github {
+        background-color: #333333; }
+
 body > section {
   overflow: hidden; }
   body > section h2 {
@@ -178,17 +213,35 @@ body > section {
   body > section.status {
     height: 100%; }
     body > section.status > div {
-      background-color: #bbe6f8; }
+      background-image: url("/static/images/hop.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: bottom center;
+      background-color: #bbe6f8;
+      padding: 1em 2em 12%; }
     body > section.status > div ~ div {
+      padding: 0;
       background-image: url("/static/images/backdrop-available.svg");
       background-repeat: repeat-x;
+      background-position: 0 0;
       background-color: #666633; }
     body > section.status header {
-      padding: 1em 2em; }
+      width: 50%;
+      padding: 1em 0.5em;
+      color: #333;
+      background-color: rgba(255, 255, 255, 0.6);
+      text-align: center;
+      border-radius: 5px; }
     body > section.status h1 {
-      color: #436B7C;
+      text-transform: uppercase;
       font-family: "Caudex", garamond, serif;
-      font-size: 9em; }
+      font-size: 10em; }
+    body > section.status h2 {
+      font-size: 3em;
+      background: none;
+      padding: 0; }
+      body > section.status h2 strong {
+        font-weight: bold; }
     body > section.status .alex {
       position: absolute;
       right: 2%;
@@ -211,9 +264,13 @@ body > section {
     body > section.skills .skill-table {
       margin-top: 1em;
       margin-bottom: 1em;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
       display: -webkit-flex;
-      justify-content: space-around; }
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around; }
       body > section.skills .skill-table h2 {
         font-size: 1.4em; }
       body > section.skills .skill-table ul {
@@ -222,7 +279,9 @@ body > section {
         margin-bottom: 0.4em; }
       body > section.skills .skill-table .cell {
         min-height: 100%;
-        flex-basis: 32.5%;
+        -webkit-flex-basis: 32.5%;
+            -ms-flex-preferred-size: 32.5%;
+                flex-basis: 32.5%;
         background-color: #BEA241;
         font-size: 1.5em; }
       body > section.skills .skill-table .cell:first-child {
@@ -240,14 +299,22 @@ body > section {
       width: 28%; }
     body > section.brands ul {
       margin: 0 2.5em;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
       display: -webkit-flex;
-      justify-content: space-around;
-      flex-flow: row wrap; }
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+      -webkit-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap; }
     body > section.brands li {
       text-align: center;
       padding: 2em 2em;
-      flex-basis: 32%;
+      -webkit-flex-basis: 32%;
+          -ms-flex-preferred-size: 32%;
+              flex-basis: 32%;
       margin-bottom: 1%;
       background-color: rgba(0, 0, 0, 0.2); }
       body > section.brands li img {
@@ -277,6 +344,10 @@ body > section {
       color: #fff; }
     body > section.contact a:hover {
       color: #3c2256; }
+    body > section.contact .button {
+      color: #221431; }
+      body > section.contact .button:hover {
+        background-color: rgba(255, 255, 255, 0.9); }
     body > section.contact .details {
       padding: 1em 0; }
       body > section.contact .details span {
@@ -298,16 +369,19 @@ body > section {
         background-color: #fff;
         border: 0; }
       body > section.contact form button {
+        cursor: pointer;
         width: 100%;
-        font-size: 1.6em;
-        color: #221431; }
+        font-size: 1.6em; }
   body > section .scrolly {
     position: absolute;
-    bottom: 1%;
-    left: 1%;
-    font-size: 1.6em;
+    bottom: 1.5%;
+    left: 1.5%;
+    font-size: 2em;
     font-weight: bold;
     color: #fff; }
+    body > section .scrolly i {
+      display: inline-block;
+      margin-right: 0.5em; }
 
 footer {
   padding: 1em;
@@ -316,4 +390,3 @@ footer {
 
 /* This is where all media queries are held */
 /* The styles in this sheet are only visible when JS is enabled */
-/* test */

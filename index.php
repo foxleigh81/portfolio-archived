@@ -10,6 +10,7 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/static/styles/css/core.css" media="screen">
     <link rel="stylesheet" href="/static/styles/css/print.css" media="print">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="/static/images/logos/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/static/images/logos/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="57x57" href="/static/images/logos/apple-touch-icon-57x57.png" />
@@ -21,7 +22,6 @@
     <link rel="apple-touch-icon" sizes="152x152" href="/static/images/logos/apple-touch-icon-152x152.png" />
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script>window.jQuery || document.write('<script src="/static/scripts/lib/jquery.min.js"><\/script>')</script>
-
     <!--[if lte IE 9]>
         <script src="/assets/libraries/js/html5shiv.js"></script>
     <![endif]-->
@@ -44,17 +44,25 @@
     <div class="skip"><a href="#main">Skip to main content</a></div>
     <section class="status is-available">
         <div>
+            <ul class="social">
+                <li><a class="fa fa-github" title="Check me out on Github" href="https://github.com/alexward1981"><span>Github</span></a></li>
+                <li><a class="fa fa-dribbble" title="Check me out on Dribble" href="https://dribbble.com/alexbward"><span>Dribbble</span></a></li>
+                <li><a class="fa fa-twitter" title="Follow me on Twitter" href="https://twitter.com/alexbward"><span>Twitter</span></a></li>
+                <li><a class="fa fa-facebook-official" title="Check me out on Facebook" href="https://www.facebook.com/alexward1981"><span>Facebook</span></a></li>
+            </ul>
             <header>
-                <h1>I'm Alex. <br /> I design and build <strong>UX focused</strong> websites</h1>
+                <h1>I'm Alex</h1>
+                <h2>I design and build <strong>UX focused</strong> websites</h2>
             </header>
         </div>
         <img class="alex" src="/static/images/alex-available.svg" width="20%" alt="An illustration of me, Alex Ward.">
         <div>
             <div class="cta">
-                <p>I'm <strong>currently available</strong> for projects in the <strong>London</strong> area</p>
+                <p>I'm <strong>currently available</strong> for projects <br /> in the <strong>London</strong> area</p>
                 <a href="" class="button">Get in touch</a>
+                <a href="" class="button">Download CV</a>
             </div>
-            <span class="scrolly">scrolly, scrolly!</span>
+            <span class="scrolly"><i class="fa fa-hand-o-down"></i>scrolly, scrolly!</span>
         </div>
     </section>
     <section class="skills">
@@ -167,6 +175,10 @@
                     <span><strong>Carrier Pigeon:</strong> No longer available</span>
                 </div>
                 <p><strong>Notice to agents:</strong> Please don’t contact me for permanent roles, I love contracting and no power in the verse will take me away from it.</p>
+                <p>
+                    <br />
+                    <a href="" class="button">Download CV</a>
+                </p>
             </div>
         </div>
         <div class="col max-4">
