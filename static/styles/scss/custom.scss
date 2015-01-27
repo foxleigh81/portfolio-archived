@@ -92,6 +92,7 @@ body > section {
             background-image: url('/static/images/backdrop-available.svg');
             background-repeat: repeat-x;
             background-position: 0 0;
+            background-size: initial;
             background-color: #666633;
         }
 
@@ -125,7 +126,7 @@ body > section {
 
         .cta {
             width: 70%;
-            padding: 6.5em 0.5em;
+            padding: 6em 0.5em;
             font-size: 4em;
 
             .button {

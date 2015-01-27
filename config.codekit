@@ -176,15 +176,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/static\/styles\/css\/core.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/static\/styles\/css\/core.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/static\/styles\/scss\/_variables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -226,22 +217,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/static\/styles\/scss\/core.scss",
 		"outputAbbreviatedPath": "\/static\/styles\/css\/core.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
-		"useLibsass": 0
-		},
-	"\/static\/styles\/scss\/custom.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/static\/styles\/scss\/custom.scss",
-		"outputAbbreviatedPath": "\/static\/styles\/css\/custom.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
