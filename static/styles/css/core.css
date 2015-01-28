@@ -211,26 +211,20 @@ body > section {
     color: #fff;
     padding: 1.5em 1em; }
   body > section.status {
-    height: 100%; }
+    height: 100%;
+    background-color: #666633; }
     body > section.status > div {
-      background-image: url("/static/images/hop.svg");
-      background-size: contain;
+      background-image: url("/static/images/backdrop-available.svg");
+      background-size: 100% auto;
       background-repeat: no-repeat;
       background-position: bottom center;
       background-color: #bbe6f8;
-      padding: 1em 2em 12% 0; }
+      padding: 1em 2em 25% 0; }
     body > section.status > div ~ div {
-      padding: 0;
-      background-image: url("/static/images/backdrop-available.svg");
-      background-repeat: repeat-x;
-      background-position: 0 0;
-      background-size: initial;
-      background-color: #666633; }
+      background: none; }
     body > section.status header {
-      width: 50%;
       padding: 1em 0.5em 2.5em;
       color: #333;
-      background-color: rgba(255, 255, 255, 0.6);
       text-align: center;
       border-radius: 0 5px 5px 0; }
     body > section.status h1 {
@@ -249,7 +243,7 @@ body > section {
       bottom: 2%; }
     body > section.status .cta {
       width: 70%;
-      padding: 6em 0.5em;
+      padding: 0.5em;
       font-size: 4em; }
       body > section.status .cta .button {
         display: inline-block;
