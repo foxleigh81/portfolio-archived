@@ -201,6 +201,8 @@
                     <div class="input-container radio">
                         <input type="radio" name="contract-type" id="contract-type-contract" value="contract" checked>
                         <label for="contract-type-contract">I am interested in hiring you for a contract</label>
+                    </div>
+                    <div class="input-container radio">
                         <input type="radio" name="contract-type" id="contract-type-freelance" value="freelance">
                         <label for="contract-type-freelance">I'd like you to build me a website</label>
                     </div>
@@ -212,8 +214,8 @@
         </div>
     </section>
     <footer>
-        &copy;MMV Alexander Ward and BBQ Digital Limited. All Rights reserved.<br />
-        Registered in England &amp; Wales 08480746.
+        <p>&copy;MMV Alexander Ward and BBQ Digital Limited. All Rights reserved.</p>
+        <p>Registered in England &amp; Wales 08480746.</p>
     </footer>
     <script src="/static/scripts/core.js"></script>
 </body>

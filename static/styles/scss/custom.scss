@@ -260,6 +260,15 @@ body > section {
                 border:0;
             }
 
+            .radio {
+                margin: 2em 0;
+                input {
+                    float: left;
+                    width: auto;
+                    margin-right: 1em;
+                }
+            }
+
             button {
                 cursor: pointer;
                 width: 100%;

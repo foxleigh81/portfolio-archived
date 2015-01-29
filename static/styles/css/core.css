@@ -362,6 +362,12 @@ body > section {
         padding: 1em;
         background-color: #fff;
         border: 0; }
+      body > section.contact form .radio {
+        margin: 2em 0; }
+        body > section.contact form .radio input {
+          float: left;
+          width: auto;
+          margin-right: 1em; }
       body > section.contact form button {
         cursor: pointer;
         width: 100%;
@@ -395,7 +401,8 @@ footer {
   body > section.status .alex {
     width: 27%; }
   body > section.skills img {
-    width: 40%; }
+    width: 40%;
+    margin: 1em; }
   body > section.skills .skill-table {
     clear: both; } }
 @media screen and (max-width: 850px) {
@@ -409,10 +416,15 @@ footer {
     padding: 1em 2em 50% 0; }
   body > section.status .cta {
     width: 70%;
-    font-size: 3.2em; } }
+    font-size: 3.2em; }
+  body > section.contact > img {
+    display: none; }
+  body > section.contact .col {
+    width: 49%; } }
 @media screen and (max-width: 750px) {
   body > section.skills h2, body > section.brands h2, body > section.references h2, body > section.contact h2 {
-    text-align: center; }
+    text-align: center;
+    font-size: 2.8em; }
   body > section.status .cta {
     font-size: 4.5em; }
   body > section.skills img {
@@ -427,9 +439,7 @@ footer {
       body > section.skills .skill-table .cell li {
         display: inline-block;
         width: 48%;
-        padding-right: 1.5%; }
-  body > section.brands > img {
-    display: none; } }
+        padding-right: 1.5%; } }
 /* Mobile breakpoints are a little different to the above, */
 /* they assume a slower connection and replace large SVGs with pngs, */
 /* smaller svgs are still used as normal. */
@@ -445,7 +455,19 @@ footer {
   body > section.status .alex {
     width: 45%; }
   body > section.status .cta {
-    font-size: 3em; } }
+    font-size: 3em; }
+  body > section.brands li {
+    -webkit-flex-basis: 49%;
+        -ms-flex-preferred-size: 49%;
+            flex-basis: 49%; }
+  body > section.contact .col {
+    width: 100%; }
+
+  footer p {
+    text-align: center;
+    margin-bottom: 0.5em; }
+  footer a {
+    color: #fff; } }
 @media screen and (max-width: 350px) {
   body > section.status > div {
     padding: 0 2em 25% 0; }
@@ -465,6 +487,8 @@ footer {
     font-size: 2em; }
   body > section.status .button {
     font-size: 1rem; }
+  body > section.brands > img, body > section.references > img, body > section.contact > img {
+    display: none; }
   body > section .scrolly {
     font-size: 1.7em; } }
 /* The styles in this sheet are only visible when JS is enabled */
