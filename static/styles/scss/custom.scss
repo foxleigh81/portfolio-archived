@@ -80,7 +80,7 @@ body > section {
         background-color: #666633;
         > div {
             background-image: url('/static/images/backdrop-available.svg');
-            background-size: 100% auto;
+            background-size: 101% auto;
             background-repeat: no-repeat;
             background-position: bottom center;
             background-color: #bbe6f8;
@@ -117,13 +117,13 @@ body > section {
             position:absolute;
             right: 2%;
             bottom: 2%;
+            width: 20%;
         }
 
         .cta {
-            width: 70%;
             padding: 0.5em;
             font-size: 4em;
-
+            width: 80%;
             .button {
                 display: inline-block;
                 margin-top: 0.5em;

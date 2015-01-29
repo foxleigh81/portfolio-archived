@@ -55,10 +55,10 @@
                 <h2>I design and build <strong>UX focused</strong> websites</h2>
             </header>
         </div>
-        <img class="alex" src="/static/images/alex-available.svg" width="20%" alt="An illustration of me, Alex Ward.">
+        <img class="alex" src="/static/images/alex-available.svg" alt="An illustration of me, Alex Ward.">
         <div>
             <div class="cta">
-                <p>I'm <strong>currently available</strong> for projects <br /> in the <strong>London</strong> area</p>
+                <p>I'm <strong>currently available</strong> for projects in the <strong>London</strong> area</p>
                 <a href="" class="button">Get in touch</a>
                 <a href="" class="button">Download CV</a>
             </div>
@@ -76,12 +76,12 @@
                 <h2>Expert</h2>
                 <ul>
                     <li>Usability (UX)</li>
+                    <li>Accessibility</li>
+                    <li>Responsive Design</li>
                     <li>xHTML/HTML5</li>
                     <li>CSS (including CSS3)</li>
                     <li>SASS/LESS</li>
                     <li>jQuery</li>
-                    <li>Responsive Design</li>
-                    <li>Accessibility</li>
                     <li>Procedural PHP</li>
                     <li>Git</li>
                 </ul>
@@ -89,21 +89,21 @@
             <div class="cell max-3">
                 <h2>Middle-weight</h2>
                 <ul>
-                    <li>OO PHP</li>
                     <li>MySQL</li>
                     <li>Pure JavaScript</li>
                     <li>Build Systems (e.g. Jenkins)</li>
                     <li>Server Management</li>
                     <li>CMS Templating (Perch &amp; Wordpress)</li>
+                    <li>Illustration</li>
                 </ul>
             </div>
             <div class="cell max-3">
                 <h2>Competent</h2>
                 <ul>
                     <li>Angular.js</li>
+                    <li>OO PHP</li>
                     <li>PHP MVC Frameworks (eg Symfony 2, Laravel etc...)</li>
                     <li>CMS Templating (Drual, EpiServer, Umbraco)</li>
-                    <li>Illustration</li>
                     <li>3D Modelling</li>
                 </ul>
             </div>

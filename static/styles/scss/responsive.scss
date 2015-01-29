@@ -1,3 +1,82 @@
 /* This is where all media queries are held */
 
 
+@media screen and (min-width: 1080px) {
+    body > section {
+        &.status {
+            > div { padding: 1em 2em 25% 0; }
+            .cta {
+                font-size: 5em;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    body > section {
+        &.status {
+            > div { padding: 1em 2em 30% 0; }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body > section {
+        &.status {
+            .alex { width: 27%; }
+        }
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    body > section {
+        &.status {
+            > div { padding: 1em 2em 50% 0; }
+            .cta {
+                width: 70%;
+                font-size: 3.2em;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    body > section {
+        &.status {
+            .cta {
+                font-size: 4.5em;
+            }
+        }
+    }
+}
+
+
+/* Mobile breakpoints are a little different to the above, */
+/* they assume a slower connection and replace large SVGs with pngs, */
+/* smaller svgs are still used as normal. */
+
+@media screen and (max-width: 500px) {
+
+    .social li {
+        display: block;
+        a {
+            margin-bottom: 0.2em;
+            margin-left: 0;
+        }
+    }
+    body > section {
+        &.status {
+            > div { padding: 1em 2em 25% 0; }
+            h1 {
+                font-size: 5em;
+                font-weight: bold;
+            }
+            h2 { font-size: 3em; }
+            .alex { width: 45%; }
+            .cta {
+                font-size: 3em;
+            }
+        }
+    }
+}
