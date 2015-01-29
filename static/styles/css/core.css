@@ -291,7 +291,6 @@ body > section {
     body > section.brands > img {
       float: right;
       margin: 2em;
-      height: 100%;
       width: 28%; }
     body > section.brands ul {
       margin: 0 2.5em;
@@ -321,7 +320,6 @@ body > section {
     body > section.references img {
       float: left;
       margin: 2em;
-      height: 100%;
       width: 28%; }
     body > section.references ul {
       margin: 2em; }
@@ -395,20 +393,12 @@ footer {
     padding: 1em 2em 30% 0; } }
 @media screen and (max-width: 1000px) {
   body > section.status .alex {
-    width: 27%; } }
+    width: 27%; }
+  body > section.skills img {
+    width: 40%; }
+  body > section.skills .skill-table {
+    clear: both; } }
 @media screen and (max-width: 850px) {
-  body > section.status > div {
-    padding: 1em 2em 50% 0; }
-  body > section.status .cta {
-    width: 70%;
-    font-size: 3.2em; } }
-@media screen and (max-width: 750px) {
-  body > section.status .cta {
-    font-size: 4.5em; } }
-/* Mobile breakpoints are a little different to the above, */
-/* they assume a slower connection and replace large SVGs with pngs, */
-/* smaller svgs are still used as normal. */
-@media screen and (max-width: 500px) {
   .social li {
     display: block; }
     .social li a {
@@ -416,6 +406,36 @@ footer {
       margin-left: 0; }
 
   body > section.status > div {
+    padding: 1em 2em 50% 0; }
+  body > section.status .cta {
+    width: 70%;
+    font-size: 3.2em; } }
+@media screen and (max-width: 750px) {
+  body > section.skills h2, body > section.brands h2, body > section.references h2, body > section.contact h2 {
+    text-align: center; }
+  body > section.status .cta {
+    font-size: 4.5em; }
+  body > section.skills img {
+    width: 90%; }
+  body > section.skills .skill-table {
+    margin: 0;
+    clear: both;
+    display: block; }
+    body > section.skills .skill-table .cell {
+      display: block;
+      width: 100%; }
+      body > section.skills .skill-table .cell li {
+        display: inline-block;
+        width: 48%;
+        padding-right: 1.5%; }
+  body > section.brands > img {
+    display: none; } }
+/* Mobile breakpoints are a little different to the above, */
+/* they assume a slower connection and replace large SVGs with pngs, */
+/* smaller svgs are still used as normal. */
+@media screen and (max-width: 550px) {
+  body > section.status > div {
+    background-image: url("/static/images/backdrop-available.png");
     padding: 1em 2em 25% 0; }
   body > section.status h1 {
     font-size: 5em;
@@ -426,4 +446,25 @@ footer {
     width: 45%; }
   body > section.status .cta {
     font-size: 3em; } }
+@media screen and (max-width: 350px) {
+  body > section.status > div {
+    padding: 0 2em 25% 0; }
+  body > section.status header {
+    text-align: left; }
+  body > section.status h1 {
+    font-size: 3.5em;
+    font-weight: bold; }
+  body > section.status h2 {
+    font-size: 1.5em; }
+  body > section.status .alex {
+    width: 25%; }
+  body > section.status .cta {
+    position: relative;
+    bottom: 0;
+    padding-top: 0;
+    font-size: 2em; }
+  body > section.status .button {
+    font-size: 1rem; }
+  body > section .scrolly {
+    font-size: 1.7em; } }
 /* The styles in this sheet are only visible when JS is enabled */

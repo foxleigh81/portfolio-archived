@@ -25,11 +25,23 @@
         &.status {
             .alex { width: 27%; }
         }
+
+        &.skills {
+            img { width: 40%; }
+            .skill-table { clear: both; }
+        }
     }
 }
 
 
 @media screen and (max-width: 850px) {
+    .social li {
+        display: block;
+        a {
+            margin-bottom: 0.2em;
+            margin-left: 0;
+        }
+    }
     body > section {
         &.status {
             > div { padding: 1em 2em 50% 0; }
@@ -43,10 +55,36 @@
 
 @media screen and (max-width: 750px) {
     body > section {
+
+        &.skills h2, &.brands h2, &.references h2, &.contact h2 { text-align: center; }
         &.status {
             .cta {
                 font-size: 4.5em;
             }
+        }
+        &.skills {
+            img { width: 90%; }
+            .skill-table {
+                margin: 0;
+                clear: both;
+                display: block;
+
+                .cell {
+                    display: block;
+                    width: 100%;
+                    li {
+                        display: inline-block;
+                        width: 48%;
+                        padding-right: 1.5%;
+                    }
+
+                }
+            }
+        }
+
+        &.brands {
+
+            > img { display: none; }
         }
     }
 }
@@ -56,18 +94,13 @@
 /* they assume a slower connection and replace large SVGs with pngs, */
 /* smaller svgs are still used as normal. */
 
-@media screen and (max-width: 500px) {
-
-    .social li {
-        display: block;
-        a {
-            margin-bottom: 0.2em;
-            margin-left: 0;
-        }
-    }
+@media screen and (max-width: 550px) {
     body > section {
         &.status {
-            > div { padding: 1em 2em 25% 0; }
+            > div {
+                background-image: url('/static/images/backdrop-available.png');
+                padding: 1em 2em 25% 0;
+            }
             h1 {
                 font-size: 5em;
                 font-weight: bold;
@@ -78,5 +111,29 @@
                 font-size: 3em;
             }
         }
+    }
+}
+
+@media screen and (max-width: 350px) {
+     body > section {
+        &.status {
+            > div { padding: 0 2em 25% 0; }
+            header { text-align: left; }
+            h1 {
+                font-size: 3.5em;
+                font-weight: bold;
+            }
+            h2 { font-size: 1.5em; }
+            .alex { width: 25%; }
+            .cta {
+                position: relative;
+                bottom: 0;
+                padding-top: 0;
+                font-size: 2em;
+            }
+            .button { font-size: 1rem; }
+        }
+
+        .scrolly { font-size: 1.7em; }
     }
 }

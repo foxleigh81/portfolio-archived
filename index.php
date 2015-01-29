@@ -22,9 +22,6 @@
     <link rel="apple-touch-icon" sizes="152x152" href="/static/images/logos/apple-touch-icon-152x152.png" />
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script>window.jQuery || document.write('<script src="/static/scripts/lib/jquery.min.js"><\/script>')</script>
-    <!--[if lte IE 9]>
-        <script src="/assets/libraries/js/html5shiv.js"></script>
-    <![endif]-->
     <script src="/static/scripts/lib/modernizr.min.js"></script>
 
     <!-- SEO tags -->
@@ -218,6 +215,6 @@
         &copy;MMV Alexander Ward and BBQ Digital Limited. All Rights reserved.<br />
         Registered in England &amp; Wales 08480746.
     </footer>
-
+    <script src="/static/scripts/core.js"></script>
 </body>
 </html>
