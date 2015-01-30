@@ -197,6 +197,8 @@ body {
         background-color: #C01C6F; }
       .social a:hover.fa-github {
         background-color: #333333; }
+      .social a:hover.fa-behance-square {
+        background-color: #0079ff; }
 
 body > section {
   overflow: hidden; }
@@ -293,7 +295,7 @@ body > section {
       margin: 2em;
       width: 28%; }
     body > section.brands ul {
-      margin: 0 2.5em;
+      margin: 0 2.5em 2em;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -491,8 +493,19 @@ footer {
   footer a {
     color: #fff; } }
 @media screen and (max-width: 350px) {
+  .social {
+    background: #333;
+    padding: 0.5em;
+    text-align: center;
+    position: static;
+    right: 0; }
+    .social li {
+      display: inline-block; }
+      .social li a {
+        margin: 0 0.3em; }
+
   body > section.status > div {
-    padding: 0 2em 25% 0; }
+    padding: 0 0 25% 0; }
   body > section.status header {
     text-align: left; }
   body > section.status h1 {
@@ -505,10 +518,10 @@ footer {
   body > section.status .cta {
     position: relative;
     bottom: 0;
-    padding-top: 0;
+    padding-top: 0.2em;
     font-size: 2em; }
   body > section.status .button {
-    font-size: 1rem; }
+    font-size: 0.8rem; }
   body > section.brands > img, body > section.references > img, body > section.contact > img {
     display: none; }
   body > section .scrolly {

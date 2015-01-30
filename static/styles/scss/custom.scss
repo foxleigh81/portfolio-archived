@@ -55,6 +55,7 @@ body {
             &.fa-twitter { background-color: #55ACEE; }
             &.fa-dribbble { background-color: #C01C6F; }
             &.fa-github { background-color: #333333; }
+            &.fa-behance-square { background-color: #0079ff; }
         }
     }
 }
@@ -177,7 +178,7 @@ body > section {
         }
 
         ul {
-            margin: 0 2.5em;
+            margin: 0 2.5em 2em;
             display: flex;
             display: -webkit-flex;
             justify-content: space-around;

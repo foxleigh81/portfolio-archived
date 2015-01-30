@@ -42,6 +42,7 @@
     <section class="status is-available">
         <div>
             <ul class="social">
+                <li><a class="fa fa-behance-square" title="Check me out on Behance" href="https://www.behance.net/alexward1981/"><span>Behance</span></a></li>
                 <li><a class="fa fa-github" title="Check me out on Github" href="https://github.com/alexward1981"><span>Github</span></a></li>
                 <li><a class="fa fa-dribbble" title="Check me out on Dribble" href="https://dribbble.com/alexbward"><span>Dribbble</span></a></li>
                 <li><a class="fa fa-twitter" title="Follow me on Twitter" href="https://twitter.com/alexbward"><span>Twitter</span></a></li>
@@ -56,7 +57,7 @@
         <div>
             <div class="cta">
                 <p>I'm <strong>currently available</strong> for projects in the <strong>London</strong> area</p>
-                <a href="" class="button">Get in touch</a>
+                <a href="#contact" class="button">Get in touch</a>
                 <a href="" class="button">Download CV</a>
             </div>
             <span class="scrolly"><i class="fa fa-hand-o-down"></i>scrolly, scrolly!</span>
@@ -159,7 +160,7 @@
             </li>
         </ul>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <h2>Get in touch!</h2>
         <img src="static/images/alex-phone.svg" width="20%" alt="An illustration of me, Alex Ward holding a cup of tea and talking on the phone.">
         <div class="col max-2">
@@ -179,7 +180,7 @@
             </div>
         </div>
         <div class="col max-4">
-            <form action="">
+            <form action="process.php" method="POST">
                 <fieldset>
                     <legend>Contact Alex Ward</legend>
                     <div class="input-container">
