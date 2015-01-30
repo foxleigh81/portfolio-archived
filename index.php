@@ -114,15 +114,15 @@
             <p>Here are a few of my favourites:</p>
         </div>
         <ul>
-            <li><img src="static/images/brands/sse.png" alt="SSE"></li>
-            <li><img src="static/images/brands/bandq.png" alt="B&amp;Q"></li>
-            <li><img src="static/images/brands/honda.png" alt="Honda"></li>
-            <li><img src="static/images/brands/everest.png" alt="Everest"></li>
-            <li><img src="static/images/brands/bowmore.png" alt="Bowmore"></li>
-            <li><img src="static/images/brands/pandg.png" alt="P&amp;G"></li>
-            <li><img src="static/images/brands/pampers.png" alt="Pampers"></li>
-            <li><img src="static/images/brands/nhs.png" alt="NHS"></li>
-            <li><img src="static/images/brands/plusnet.png" alt="Plusnet"></li>
+            <li class="sse"><img src="static/images/brands/sse.png" alt="SSE"></li>
+            <li class="bandq"><img src="static/images/brands/bandq.png" alt="B&amp;Q"></li>
+            <li class="honda"><img src="static/images/brands/honda.png" alt="Honda"></li>
+            <li class="everest"><img src="static/images/brands/everest.png" alt="Everest"></li>
+            <li class="bowmore"><img src="static/images/brands/bowmore.png" alt="Bowmore"></li>
+            <li class="pandg"><img src="static/images/brands/pandg.png" alt="P&amp;G"></li>
+            <li class="pampers"><img src="static/images/brands/pampers.png" alt="Pampers"></li>
+            <li class="nhs"><img src="static/images/brands/nhs.png" alt="NHS"></li>
+            <li class="plusnet"><img src="static/images/brands/plusnet.png" alt="Plusnet"></li>
         </ul>
     </section>
     <section class="references">

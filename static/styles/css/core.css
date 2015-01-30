@@ -311,10 +311,32 @@ body > section {
           -ms-flex-preferred-size: 32%;
               flex-basis: 32%;
       margin-bottom: 1%;
-      background-color: rgba(0, 0, 0, 0.2); }
+      background-color: rgba(0, 0, 0, 0.2);
+      background-size: cover;
+      background-position: 50% 50%; }
       body > section.brands li img {
         width: 100%;
         height: auto; }
+      body > section.brands li.sse {
+        background-image: url(../../images/brands/sse-bg.jpg); }
+      body > section.brands li.bandq {
+        background-image: url(../../images/brands/bandq-bg.jpg); }
+      body > section.brands li.honda {
+        background-image: url(../../images/brands/honda-bg.jpg); }
+      body > section.brands li.everest {
+        background-image: url(../../images/brands/everest-bg.jpg); }
+      body > section.brands li.bowmore {
+        background-image: url(../../images/brands/bowmore-bg.jpg);
+        background-position: 50% 75%; }
+      body > section.brands li.pandg {
+        background-image: url(../../images/brands/pandg-bg.jpg); }
+      body > section.brands li.pampers {
+        background-image: url(../../images/brands/pampers-bg.jpg);
+        background-position: 50% 0; }
+      body > section.brands li.nhs {
+        background-image: url(../../images/brands/nhs-bg.jpg); }
+      body > section.brands li.plusnet {
+        background-image: url(../../images/brands/plusnet-bg.jpg); }
   body > section.references {
     background-color: #7A9F2C; }
     body > section.references img {

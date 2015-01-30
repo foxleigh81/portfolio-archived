@@ -190,11 +190,28 @@ body > section {
             flex-basis: 32%;
             margin-bottom: 1%;
             background-color: rgba(0,0,0,0.2);
-
+            background-size: cover;
+            background-position: 50% 50%;
             img {
                 width:100%;
                 height: auto;
             }
+
+            &.sse { background-image: url(../../images/brands/sse-bg.jpg); }
+            &.bandq { background-image: url(../../images/brands/bandq-bg.jpg); }
+            &.honda { background-image: url(../../images/brands/honda-bg.jpg); }
+            &.everest { background-image: url(../../images/brands/everest-bg.jpg); }
+            &.bowmore {
+                background-image: url(../../images/brands/bowmore-bg.jpg);
+                background-position: 50% 75%;
+            }
+            &.pandg { background-image: url(../../images/brands/pandg-bg.jpg); }
+            &.pampers {
+                background-image: url(../../images/brands/pampers-bg.jpg);
+                background-position: 50% 0;
+            }
+            &.nhs { background-image: url(../../images/brands/nhs-bg.jpg); }
+            &.plusnet { background-image: url(../../images/brands/plusnet-bg.jpg); }
         }
     }
 
