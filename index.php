@@ -8,21 +8,21 @@
     <meta name="revisit-after" content="7 days">
     <link href='http://fonts.googleapis.com/css?family=Caudex:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/static/styles/css/core.css" media="screen">
-    <link rel="stylesheet" href="/static/styles/css/print.css" media="print">
+    <link rel="stylesheet" href="static/styles/css/core.css" media="screen">
+    <link rel="stylesheet" href="static/styles/css/print.css" media="print">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="/static/images/logos/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="static/images/logos/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/static/images/logos/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="57x57" href="/static/images/logos/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="/static/images/logos/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="/static/images/logos/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="/static/images/logos/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="/static/images/logos/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="/static/images/logos/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="/static/images/logos/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="static/images/logos/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="static/images/logos/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="static/images/logos/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="static/images/logos/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="static/images/logos/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="static/images/logos/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="static/images/logos/apple-touch-icon-152x152.png" />
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/static/scripts/lib/jquery.min.js"><\/script>')</script>
-    <script src="/static/scripts/lib/modernizr.min.js"></script>
+    <script>window.jQuery || document.write('<script src="static/scripts/lib/jquery.min.js"><\/script>')</script>
+    <script src="static/scripts/lib/modernizr.min.js"></script>
 
     <!-- SEO tags -->
     <title>Alexander Ward | UI Developer and usability consultant</title>
@@ -52,7 +52,7 @@
                 <h2>I design and build <strong>UX focused</strong> websites</h2>
             </header>
         </div>
-        <img class="alex" src="/static/images/alex-available.svg" alt="An illustration of me, Alex Ward.">
+        <img class="alex" src="static/images/alex-available.svg" alt="An illustration of me, Alex Ward.">
         <div>
             <div class="cta">
                 <p>I'm <strong>currently available</strong> for projects in the <strong>London</strong> area</p>
@@ -64,7 +64,7 @@
     </section>
     <section class="skills">
         <h2>Skills to pay the bills</h2>
-        <img src="/static/images/alex-tables.svg" width="20%" alt="An illustration of me, Alex Ward, wearing a tshirt saying 'we used to build websites with tables'">
+        <img src="static/images/alex-tables.svg" width="20%" alt="An illustration of me, Alex Ward, wearing a tshirt saying 'we used to build websites with tables'">
         <div class="text-wrap">
             <p>I've been in the web industry for a long time (since 1998 to be exact) and over that time I've aquired a wide range of skills. </p>
         </div>
@@ -108,26 +108,26 @@
     </section>
     <section class="brands">
         <h2>I love the brands I've worked with &hellip;</h2>
-        <img src="/static/images/alex-smile.svg" width="20%" alt="An illustration of me, Alex Ward smiling.">
+        <img src="static/images/alex-smile.svg" width="20%" alt="An illustration of me, Alex Ward smiling.">
         <div class="text-wrap">
             <p>I've been fortunate enough to work with some amazing brands over the years.</p>
             <p>Here are a few of my favourites:</p>
         </div>
         <ul>
-            <li><img src="/static/images/brands/sse.png" alt="SSE"></li>
-            <li><img src="/static/images/brands/bandq.png" alt="B&amp;Q"></li>
-            <li><img src="/static/images/brands/honda.png" alt="Honda"></li>
-            <li><img src="/static/images/brands/everest.png" alt="Everest"></li>
-            <li><img src="/static/images/brands/bowmore.png" alt="Bowmore"></li>
-            <li><img src="/static/images/brands/pandg.png" alt="P&amp;G"></li>
-            <li><img src="/static/images/brands/pampers.png" alt="Pampers"></li>
-            <li><img src="/static/images/brands/nhs.png" alt="NHS"></li>
-            <li><img src="/static/images/brands/plusnet.png" alt="Plusnet"></li>
+            <li><img src="static/images/brands/sse.png" alt="SSE"></li>
+            <li><img src="static/images/brands/bandq.png" alt="B&amp;Q"></li>
+            <li><img src="static/images/brands/honda.png" alt="Honda"></li>
+            <li><img src="static/images/brands/everest.png" alt="Everest"></li>
+            <li><img src="static/images/brands/bowmore.png" alt="Bowmore"></li>
+            <li><img src="static/images/brands/pandg.png" alt="P&amp;G"></li>
+            <li><img src="static/images/brands/pampers.png" alt="Pampers"></li>
+            <li><img src="static/images/brands/nhs.png" alt="NHS"></li>
+            <li><img src="static/images/brands/plusnet.png" alt="Plusnet"></li>
         </ul>
     </section>
     <section class="references">
         <h2>&hellip; and I think they love me too!</h2>
-        <img src="/static/images/alex-blushing.svg" width="20%" alt="An illustration of me, Alex Ward blushing.">
+        <img src="static/images/alex-blushing.svg" width="20%" alt="An illustration of me, Alex Ward blushing.">
         <ul>
             <li>
                 <blockquote itemprop="review">
@@ -161,7 +161,7 @@
     </section>
     <section class="contact">
         <h2>Get in touch!</h2>
-        <img src="/static/images/alex-phone.svg" width="20%" alt="An illustration of me, Alex Ward holding a cup of tea and talking on the phone.">
+        <img src="static/images/alex-phone.svg" width="20%" alt="An illustration of me, Alex Ward holding a cup of tea and talking on the phone.">
         <div class="col max-2">
             <div class="text-wrap">
                 <p>I’ve recently moved to the amazing city of London and I’m currently available for contract work. If you wish to hire me for a contract or  project, please contact me either using the form or the details below.</p>
@@ -217,6 +217,6 @@
         <p>&copy;MMV Alexander Ward and BBQ Digital Limited. All Rights reserved.</p>
         <p>Registered in England &amp; Wales 08480746.</p>
     </footer>
-    <script src="/static/scripts/core.js"></script>
+    <script src="static/scripts/core.js"></script>
 </body>
 </html>
