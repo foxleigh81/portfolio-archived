@@ -204,66 +204,66 @@ body {
       .social a:hover.fa-behance-square {
         background-color: #0079ff; }
 
-body > section {
+section {
   overflow: hidden; }
-  body > section h2 {
+  section h2 {
     padding: 1em;
     font-size: 2.5em;
     background-color: rgba(0, 0, 0, 0.2);
     font-family: "Caudex", garamond, serif;
     font-weight: bold; }
-  body > section .text-wrap {
+  section .text-wrap {
     font-size: 2.5em;
     color: #fff;
     padding: 1.5em 1em; }
-  body > section.status {
+  section.status {
     height: 100%;
     background-color: #666633; }
-    body > section.status > div {
+    section.status > div {
       background-image: url("../../images/backdrop-available.svg");
       background-size: 101% auto;
       background-repeat: no-repeat;
       background-position: bottom center;
       background-color: #bbe6f8;
       padding: 1em 2em 25% 0; }
-    body > section.status > div ~ div {
+    section.status > div ~ div {
       background: none; }
-    body > section.status header {
+    section.status header {
       padding: 1em 0.5em 2.5em;
       color: #333;
       text-align: center;
       border-radius: 0 5px 5px 0; }
-    body > section.status h1 {
+    section.status h1 {
       text-transform: uppercase;
       font-family: "Caudex", garamond, serif;
       font-size: 10em; }
-    body > section.status h2 {
+    section.status h2 {
       font-size: 3em;
       background: none;
       padding: 0; }
-      body > section.status h2 strong {
+      section.status h2 strong {
         font-weight: bold; }
-    body > section.status .alex {
+    section.status .alex {
       position: absolute;
       right: 2%;
       bottom: 2%;
       width: 20%; }
-    body > section.status .cta {
+    section.status .cta {
       padding: 0.5em;
       font-size: 4em;
       width: 80%; }
-      body > section.status .cta .button {
+      section.status .cta .button {
         display: inline-block;
         margin-top: 0.5em;
         color: #659758; }
-  body > section.skills {
+  section.skills {
     background-color: #3D82CD; }
-    body > section.skills img {
+    section.skills img {
       float: left;
       margin: 6em 2em 0;
       height: auto;
       width: 30%; }
-    body > section.skills .skill-table {
+    section.skills .skill-table {
       margin-top: 1em;
       margin-bottom: 1em;
       display: -webkit-box;
@@ -273,38 +273,38 @@ body > section {
       -webkit-justify-content: space-around;
           -ms-flex-pack: distribute;
               justify-content: space-around; }
-      .no-flexbox body > section.skills .skill-table {
+      .no-flexbox section.skills .skill-table {
         display: table; }
-      body > section.skills .skill-table h2 {
+      section.skills .skill-table h2 {
         font-size: 1.4em; }
-      body > section.skills .skill-table ul {
+      section.skills .skill-table ul {
         padding: 1em 1.5em; }
-      body > section.skills .skill-table li {
+      section.skills .skill-table li {
         margin-bottom: 0.4em; }
-      body > section.skills .skill-table .cell {
+      section.skills .skill-table .cell {
         min-height: 100%;
         -webkit-flex-basis: 32.5%;
             -ms-flex-preferred-size: 32.5%;
                 flex-basis: 32.5%;
         background-color: #BEA241;
         font-size: 1.5em; }
-        .no-flexbox body > section.skills .skill-table .cell {
+        .no-flexbox section.skills .skill-table .cell {
           display: table-cell; }
-      body > section.skills .skill-table .cell:first-child {
+      section.skills .skill-table .cell:first-child {
         background-color: #1ABE30; }
-      body > section.skills .skill-table .cell:last-child {
+      section.skills .skill-table .cell:last-child {
         background-color: #BE501A; }
-  body > section.brands {
+  section.brands {
     background-color: #CD4A3D; }
-    body > section.brands > h2 {
+    section.brands > h2 {
       text-align: right; }
-    body > section.brands > img {
+    section.brands > img {
       float: right;
       margin: 2em;
       width: 28%; }
-      .no-flexbox body > section.brands > img {
+      .no-flexbox section.brands > img {
         display: none; }
-    body > section.brands ul {
+    section.brands ul {
       margin: 0 2.5em 2em;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -316,9 +316,9 @@ body > section {
       -webkit-flex-flow: row wrap;
           -ms-flex-flow: row wrap;
               flex-flow: row wrap; }
-      .no-flexbox body > section.brands ul {
+      .no-flexbox section.brands ul {
         display: block; }
-    body > section.brands li {
+    section.brands li {
       text-align: center;
       padding: 2em 2em;
       -webkit-flex-basis: 32%;
@@ -328,123 +328,130 @@ body > section {
       background-color: rgba(0, 0, 0, 0.2);
       background-size: cover;
       background-position: 50% 50%; }
-      .no-flexbox body > section.brands li {
+      .no-flexbox section.brands li {
         display: inline-block;
         width: 30%;
         margin-right: 1em; }
-      body > section.brands li img {
+      section.brands li img {
         width: 100%;
         height: auto; }
-      body > section.brands li.sse {
+      section.brands li.sse {
         background-image: url(../../images/brands/sse-bg.jpg); }
-      body > section.brands li.bandq {
+      section.brands li.bandq {
         background-image: url(../../images/brands/bandq-bg.jpg); }
-      body > section.brands li.honda {
+      section.brands li.honda {
         background-image: url(../../images/brands/honda-bg.jpg); }
-      body > section.brands li.everest {
+      section.brands li.everest {
         background-image: url(../../images/brands/everest-bg.jpg); }
-      body > section.brands li.bowmore {
+      section.brands li.bowmore {
         background-image: url(../../images/brands/bowmore-bg.jpg);
         background-position: 50% 75%; }
-      body > section.brands li.pandg {
+      section.brands li.pandg {
         background-image: url(../../images/brands/pandg-bg.jpg); }
-      body > section.brands li.pampers {
+      section.brands li.pampers {
         background-image: url(../../images/brands/pampers-bg.jpg);
         background-position: 50% 0; }
-      body > section.brands li.nhs {
+      section.brands li.nhs {
         background-image: url(../../images/brands/nhs-bg.jpg); }
-      body > section.brands li.plusnet {
+      section.brands li.plusnet {
         background-image: url(../../images/brands/plusnet-bg.jpg); }
-  body > section.references {
+  section.references {
     background-color: #7A9F2C; }
-    body > section.references img {
+    section.references img {
       width: 20%; }
-    body > section.references ul {
+    section.references ul {
       margin: 2em 0 0;
       width: 80%;
       float: left; }
-    body > section.references li {
+    section.references li {
       margin-bottom: 1.5em;
       padding: 1.5em;
       background: rgba(0, 0, 0, 0.3); }
-      body > section.references li:nth-child(even) {
+      section.references li:nth-child(even) {
         background: rgba(0, 0, 0, 0.2); }
-    body > section.references blockquote {
+    section.references blockquote {
       font-size: 2em; }
-    body > section.references strong {
+    section.references strong {
       display: block; }
-  body > section.contact {
+  section.contact {
     background-color: #8856BB; }
-    body > section.contact > h2 {
+    section.contact > h2 {
       text-align: right; }
-    body > section.contact img {
+    section.contact img {
       padding: 1em;
       width: 20%; }
-    body > section.contact a {
+    section.contact a {
       color: #fff; }
-    body > section.contact a:hover {
+    section.contact a:hover {
       color: #3c2256; }
-    body > section.contact .button {
+    section.contact .button {
       color: #221431; }
-      body > section.contact .button:hover {
+      section.contact .button:hover {
         background-color: rgba(255, 255, 255, 0.9); }
-    body > section.contact .details {
+    section.contact .details {
       padding: 1em 0; }
-      body > section.contact .details span {
+      section.contact .details span {
         display: block;
         margin-bottom: 0.5em; }
-    body > section.contact form {
+    section.contact .warning {
+      font-size: 2em;
+      background: #fff;
+      padding: 4em 2em;
+      margin-top: 1em; }
+    section.contact form {
       padding: 4em 2em; }
-      body > section.contact form legend {
+      .no-js section.contact form {
         display: none; }
-      body > section.contact form .input-container {
+      section.contact form legend {
+        display: none; }
+      section.contact form .input-container {
         margin-bottom: 1em; }
-      body > section.contact form .posted-message {
+      section.contact form .posted-message {
         font-size: 1.4em;
         background-color: rgba(0, 0, 0, 0.3);
         padding: 1em;
         margin-bottom: 1em; }
-        body > section.contact form .posted-message .close {
+        section.contact form .posted-message .close {
           display: block;
           margin-top: 0.5em;
           color: rgba(255, 255, 255, 0.5);
           cursor: pointer; }
-      body > section.contact form label {
+      section.contact form label {
         display: block;
         font-size: 1.6em;
         margin-bottom: 0.5em; }
-      body > section.contact form input, body > section.contact form textarea {
+      section.contact form input, section.contact form textarea {
         width: 100%;
         padding: 1em;
         background-color: #fff;
         border: 0; }
-        body > section.contact form input:focus, body > section.contact form textarea:focus {
+        section.contact form input:focus, section.contact form textarea:focus {
           background-color: #eee;
           outline: 0; }
-        body > section.contact form input.error-flag, body > section.contact form textarea.error-flag {
+        section.contact form input.error-flag, section.contact form textarea.error-flag {
           background-color: #f49a9a; }
-      body > section.contact form .radio {
+      section.contact form .radio {
         margin: 2em 0; }
-        body > section.contact form .radio input {
+        section.contact form .radio input {
           float: left;
           width: auto;
           margin-right: 1em; }
-      body > section.contact form .inline-error {
+      section.contact form .inline-error {
         font-size: 1.2em;
         margin-top: 0.5em;
         font-weight: bold; }
-      body > section.contact form button {
+      section.contact form button {
         cursor: pointer;
         width: 100%;
         font-size: 1.6em; }
-  body > section .scrolly {
+  section .scrolly {
     position: absolute;
     bottom: 1.5%;
     left: 1.5%;
     font-size: 2em;
     font-weight: bold;
     color: #fff; }
-    body > section .scrolly i {
+    section .scrolly i {
       display: inline-block;
       margin-right: 0.5em; }
 

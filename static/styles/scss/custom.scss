@@ -61,7 +61,7 @@ body {
     }
 }
 
-body > section {
+section {
     overflow: hidden;
     h2 {
         padding: 1em;
@@ -284,8 +284,17 @@ body > section {
             }
         }
 
+         .warning {
+            font-size: 2em;
+            background: #fff;
+            padding:4em 2em;
+            margin-top: 1em;
+        }
+
         form {
             padding:4em 2em;
+
+            .no-js & { display: none; }
 
             legend { display: none; }
 
@@ -303,6 +312,9 @@ body > section {
                     cursor: pointer;
                 }
             }
+
+
+
             label {
                 display: block;
                 font-size: 1.6em;

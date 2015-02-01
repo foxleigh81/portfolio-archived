@@ -87,7 +87,7 @@ Forms = {
     enableForms : function () {
         var f = this;
         // Disable forms on the site if javascript is not enabled/supported.
-        f.formContainer.find('.warning').remove();
+        f.formContainer.parent().find('.warning').remove();
         f.formContainer.find('input, textarea, button').prop('disabled', false);
         $('<input type="hidden" name="js" id="jsform" value="js" />').insertBefore(f.formContainer.find('button')); // We don't want the form to be submitted without js.
         // note submit button will not be enabled until validation has passed

@@ -178,8 +178,8 @@
             </div>
         </div>
         <div class="col max-4">
+            <div class="warning">This form requires javascript enabled.</div>
             <form action="process.php" method="POST">
-                <div class="warning">You must have javascript enabled in order to submit this form</div>
                 <fieldset>
                     <legend>Contact Alex Ward</legend>
                     <div class="input-container">
