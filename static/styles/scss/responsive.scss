@@ -17,6 +17,10 @@
         &.status {
             > div { padding: 1em 2em 30% 0; }
         }
+
+        &.references {
+            img { float: right; }
+        }
     }
 }
 
@@ -118,6 +122,10 @@
         &.brands {
             li { flex-basis: 49%;}
         }
+        &.references {
+            img { display: none; }
+            li { width: 100%; }
+        }
 
         &.contact {
             .col { width: 100%; }
@@ -146,8 +154,6 @@
             display: inline-block;
             a { margin: 0 0.3em; }
         }
-
-
     }
 
      body > section {
@@ -173,4 +179,37 @@
         }
         .scrolly { font-size: 1.7em; }
     }
+}
+
+@media screen and (max-width: 500px) and (orientation: landscape) {
+
+    .social {
+        background:#333;
+        padding: 0.5em;
+        text-align: center;
+        position: static;
+        right:0;
+
+        li {
+            display: inline-block;
+            a { margin: 0 0.3em; }
+        }
+    }
+
+    body > section {
+        &.status {
+            height: auto;
+            > div { padding: 0 0 25% 0; }
+            > div ~ div { padding: 0; }
+            .alex {
+                width: auto;
+                height: 50%;
+            }
+
+            .cta { width: 100%; }
+
+            .scrolly { display: none; }
+        }
+    }
+
 }

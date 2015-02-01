@@ -19,20 +19,37 @@ Core = {
     init: function () {
         var o = this;
         o.constructor();
-       // o.responsiveLogger(); // Only turn on in dev environment
+        o.responsiveLogger('wh'); // Only turn on in dev environment
     },
 
-    responsiveLogger: function() {
-        // Output the screen width (For development only this method should be removed when the site is deployed)
-        var o = this;
-        o.screenLogger = $('<div style="position:absolute;left:5px;top:5px;padding:10px;font-size:12px;background:black;color:#fff;z-index:10000;opacity:0.8"></div>');
-        o.screenLogger.appendTo('body');
+    responsiveLogger: function(type) {
+        // Function to output the screen width and/or height
+        var viewportWidth = null,
+            viewportHeight = null,
+            outputString = '',
+            screenLogger = $('<div style="position:fixed;left:5px;top:5px;padding:10px;font-size:20px;background:rgba(0,0,0,0.8);color:#fff;z-index:10000;box-shadow:2px 2px 5px #000;"></div>').appendTo('body');
         setInterval(
             function() {
-                o.viewportWidth = $('body').outerWidth(true);
-                o.screenLogger.html(o.viewportWidth+'px');
+                viewportWidth = $('body').outerWidth(true);
+                viewportHeight = $('body').outerHeight(true);
+            switch (type) {
+                case 'w' :
+                    outputString = 'W: '+viewportWidth+'px';
+                break;
+                case 'h' :
+                    outputString = 'H: '+viewportHeight+'px';
+                break;
+                default :
+                case 'wh' :
+                    outputString = 'W: '+viewportWidth+'px';
+                    outputString += '&nbsp;&nbsp;|&nbsp;&nbsp;';
+                    outputString += 'H: '+viewportHeight+'px';
+                break;
+            }
+                screenLogger.html(outputString);
             }, 500
         );
+        console.warn('The "startLogging()" function is currently active. It should not be allowed to run in a production environment');
     },
 };
 

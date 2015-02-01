@@ -348,8 +348,11 @@ body > section {
     body > section.references ul {
       margin: 2em; }
     body > section.references li {
-      display: block;
-      margin-bottom: 1.5em; }
+      width: 67%;
+      float: left;
+      margin-bottom: 1.5em;
+      padding: 1em;
+      background: rgba(0, 0, 0, 0.3); }
     body > section.references blockquote {
       font-size: 2em; }
   body > section.contact {
@@ -420,7 +423,9 @@ footer {
     font-size: 5em; } }
 @media screen and (max-width: 1240px) {
   body > section.status > div {
-    padding: 1em 2em 30% 0; } }
+    padding: 1em 2em 30% 0; }
+  body > section.references img {
+    float: right; } }
 @media screen and (max-width: 1000px) {
   body > section.status .alex {
     width: 27%; }
@@ -484,6 +489,10 @@ footer {
     -webkit-flex-basis: 49%;
         -ms-flex-preferred-size: 49%;
             flex-basis: 49%; }
+  body > section.references img {
+    display: none; }
+  body > section.references li {
+    width: 100%; }
   body > section.contact .col {
     width: 100%; }
 
@@ -526,4 +535,29 @@ footer {
     display: none; }
   body > section .scrolly {
     font-size: 1.7em; } }
+@media screen and (max-width: 500px) and (orientation: landscape) {
+  .social {
+    background: #333;
+    padding: 0.5em;
+    text-align: center;
+    position: static;
+    right: 0; }
+    .social li {
+      display: inline-block; }
+      .social li a {
+        margin: 0 0.3em; }
+
+  body > section.status {
+    height: auto; }
+    body > section.status > div {
+      padding: 0 0 25% 0; }
+    body > section.status > div ~ div {
+      padding: 0; }
+    body > section.status .alex {
+      width: auto;
+      height: 50%; }
+    body > section.status .cta {
+      width: 100%; }
+    body > section.status .scrolly {
+      display: none; } }
 /* The styles in this sheet are only visible when JS is enabled */

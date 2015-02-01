@@ -227,8 +227,11 @@ body > section {
         ul { margin: 2em; }
 
         li {
-            display: block;
+            width: 67%;
+            float: left;
             margin-bottom: 1.5em;
+            padding:1em;
+            background: rgba(0,0,0,0.3);
         }
 
         blockquote { font-size: 2em; }
