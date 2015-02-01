@@ -373,87 +373,99 @@ section {
       font-size: 2em; }
     section.references strong {
       display: block; }
-  section.contact {
+  section.generic, section.contact {
     background-color: #8856BB; }
-    section.contact > h2 {
+    section.generic > h2, section.contact > h2 {
       text-align: right; }
-    section.contact img {
+    section.generic img, section.contact img {
       padding: 1em;
       width: 20%; }
-    section.contact a {
+    section.generic a, section.contact a {
       color: #fff; }
-    section.contact a:hover {
+    section.generic a:hover, section.contact a:hover {
       color: #3c2256; }
-    section.contact .button {
+    section.generic .button, section.contact .button {
       color: #221431; }
-      section.contact .button:hover {
+      section.generic .button:hover, section.contact .button:hover {
         background-color: rgba(255, 255, 255, 0.9); }
-    section.contact .details {
+    section.generic .details, section.contact .details {
       padding: 1em 0; }
-      section.contact .details span {
+      section.generic .details span, section.contact .details span {
         display: block;
         margin-bottom: 0.5em; }
-    section.contact .warning {
+    section.generic .warning, section.contact .warning {
       font-size: 2em;
       background: #fff;
       padding: 4em 2em;
       margin-top: 1em; }
-    section.contact form {
+    section.generic form, section.contact form {
       padding: 4em 2em; }
-      .no-js section.contact form {
+      .no-js section.generic form, .no-js section.contact form {
         display: none; }
-      section.contact form legend {
+      section.generic form legend, section.contact form legend {
         display: none; }
-      section.contact form .input-container {
+      section.generic form .input-container, section.contact form .input-container {
         margin-bottom: 1em; }
-      section.contact form .posted-message {
+      section.generic form .posted-message, section.contact form .posted-message {
         font-size: 1.4em;
         background-color: rgba(0, 0, 0, 0.3);
         padding: 1em;
         margin-bottom: 1em; }
-        section.contact form .posted-message .close {
+        section.generic form .posted-message .close, section.contact form .posted-message .close {
           display: block;
           margin-top: 0.5em;
           color: rgba(255, 255, 255, 0.5);
           cursor: pointer; }
-      section.contact form label {
+      section.generic form label, section.contact form label {
         display: block;
         font-size: 1.6em;
         margin-bottom: 0.5em; }
-      section.contact form input, section.contact form textarea {
+      section.generic form input, section.generic form textarea, section.contact form input, section.contact form textarea {
         width: 100%;
         padding: 1em;
         background-color: #fff;
         border: 0; }
-        section.contact form input:focus, section.contact form textarea:focus {
+        section.generic form input:focus, section.generic form textarea:focus, section.contact form input:focus, section.contact form textarea:focus {
           background-color: #eee;
           outline: 0; }
-        section.contact form input.error-flag, section.contact form textarea.error-flag {
+        section.generic form input.error-flag, section.generic form textarea.error-flag, section.contact form input.error-flag, section.contact form textarea.error-flag {
           background-color: #f49a9a; }
-      section.contact form .radio {
+      section.generic form .radio, section.contact form .radio {
         margin: 2em 0; }
-        section.contact form .radio input {
+        section.generic form .radio input, section.contact form .radio input {
           float: left;
           width: auto;
           margin-right: 1em; }
-      section.contact form .inline-error {
+      section.generic form .inline-error, section.contact form .inline-error {
         font-size: 1.2em;
         margin-top: 0.5em;
         font-weight: bold; }
-      section.contact form button {
+      section.generic form button, section.contact form button {
         cursor: pointer;
         width: 100%;
         font-size: 1.6em; }
-  section .scrolly {
-    position: absolute;
-    bottom: 1.5%;
-    left: 1.5%;
-    font-size: 2em;
-    font-weight: bold;
-    color: #fff; }
-    section .scrolly i {
-      display: inline-block;
-      margin-right: 0.5em; }
+  section.generic {
+    min-height: 90%; }
+    section.generic .alex {
+      float: right; }
+    section.generic header {
+      padding: 1em; }
+    section.generic h1 {
+      font-size: 6em; }
+    section.generic h2 {
+      background: none;
+      padding: 0; }
+    section.generic .text-wrap {
+      font-size: 1em; }
+    section.generic p, section.generic ul {
+      font-size: 1.6em;
+      margin-bottom: 1em; }
+    section.generic ul li:before {
+      content: "- "; }
+    section.generic div > a {
+      margin-top: 1em;
+      display: block;
+      font-size: 1.5em; }
 
 footer {
   padding: 1em;
@@ -462,6 +474,8 @@ footer {
   overflow: hidden; }
   footer .info {
     float: right; }
+  footer.pinned {
+    min-height: 10%; }
   footer a {
     color: #fff;
     text-decoration: underline; }

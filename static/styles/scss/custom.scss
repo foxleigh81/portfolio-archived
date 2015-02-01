@@ -260,6 +260,7 @@ section {
 
     }
 
+    &.generic,
     &.contact {
         background-color: #8856BB;
 
@@ -358,16 +359,31 @@ section {
         }
     }
 
-    .scrolly {
-        position:absolute;
-        bottom:1.5%;
-        left:1.5%;
-        font-size: 2em;
-        font-weight: bold;
-        color:#fff;
-        i {
-            display: inline-block;
-            margin-right: 0.5em;
+    &.generic {
+        min-height: 90%;
+        .alex { float: right; }
+        header{ padding: 1em; }
+        h1 { font-size: 6em; }
+        h2 {
+            background: none;
+            padding: 0;
+        }
+
+        .text-wrap {
+            font-size: 1em;
+        }
+
+        p, ul {
+            font-size: 1.6em;
+            margin-bottom: 1em;
+        }
+
+        ul li:before { content:"- "; }
+
+        div > a {
+            margin-top: 1em;
+            display: block;
+            font-size: 1.5em;
         }
     }
 }
@@ -379,7 +395,7 @@ footer {
     overflow: hidden;
 
     .info { float: right; }
-
+    &.pinned { min-height: 10%; }
     a {
         color: #fff;
         text-decoration: underline;

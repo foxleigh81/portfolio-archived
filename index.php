@@ -58,7 +58,6 @@
                 <a href="#contact" class="button">Get in touch</a>
                 <a href="https://www.dropbox.com/s/arxwap21eqkw2h3/AlexWard-ContractorCV.docx?dl=0" class="button">Download CV</a>
             </div>
-            <span class="scrolly"><i class="fa fa-hand-o-down"></i>scrolly, scrolly!</span>
         </div>
     </section>
     <section class="skills">
@@ -219,7 +218,7 @@
             <p>Registered in England &amp; Wales 08480746.</p>
         </div>
         <div class="links">
-            <a href="">Roadmap</a>
+            <a href="roadmap.php">Roadmap</a>
         </div>
     </footer>
     <script src="static/scripts/core.js"></script>
