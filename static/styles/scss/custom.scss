@@ -148,6 +148,8 @@ body > section {
             display:flex;
             display:-webkit-flex;
             justify-content: space-around;
+            .no-flexbox & {  display: table; }
+
             h2 { font-size:1.4em; }
             ul { padding:1em 1.5em;}
             li { margin-bottom: 0.4em; }
@@ -156,6 +158,7 @@ body > section {
                 flex-basis: 32.5%;
                 background-color: #BEA241;
                 font-size: 1.5em;
+                .no-flexbox & { display: table-cell;}
             }
             .cell:first-child {
                 background-color: #1ABE30;
@@ -176,6 +179,8 @@ body > section {
             float: right;
             margin: 2em;
             width:28%;
+
+            .no-flexbox & { display: none; }
         }
 
         ul {
@@ -184,6 +189,8 @@ body > section {
             display: -webkit-flex;
             justify-content: space-around;
             flex-flow: row wrap;
+
+            .no-flexbox & { display:block; }
         }
 
         li {
@@ -194,6 +201,13 @@ body > section {
             background-color: rgba(0,0,0,0.2);
             background-size: cover;
             background-position: 50% 50%;
+
+            .no-flexbox & {
+                display: inline-block;
+                width: 30%;
+                margin-right: 1em;
+            }
+
             img {
                 width:100%;
                 height: auto;
