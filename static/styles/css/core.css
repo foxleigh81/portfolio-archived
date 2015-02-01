@@ -161,8 +161,12 @@ body {
   .skip a:focus {
     top: 0; }
 
-.no-js .wrapper .warnings {
+.no-js .warnings {
   position: static; }
+
+.warning {
+  font-weight: bold;
+  color: #000; }
 
 .for-print,
 .js .js-disabled {
@@ -341,22 +345,11 @@ body > section {
         background-image: url(../../images/brands/plusnet-bg.jpg); }
   body > section.references {
     background-color: #7A9F2C; }
-    body > section.references svg {
-      float: left;
-      margin: 2em;
-      width: 28%;
-      height: auto; }
-      body > section.references svg .eye {
-        -webkit-transform: translateX(0);
-            -ms-transform: translateX(0);
-                transform: translateX(0); }
-      body > section.references svg .eye-inner {
-        -webkit-transform: translateX(0);
-            -ms-transform: translateX(0);
-                transform: translateX(0); }
+    body > section.references img {
+      width: 20%; }
     body > section.references ul {
       margin: 2em 0 0;
-      width: 67%;
+      width: 80%;
       float: left; }
     body > section.references li {
       margin-bottom: 1.5em;
@@ -366,6 +359,8 @@ body > section {
         background: rgba(0, 0, 0, 0.2); }
     body > section.references blockquote {
       font-size: 2em; }
+    body > section.references strong {
+      display: block; }
   body > section.contact {
     background-color: #8856BB; }
     body > section.contact > h2 {
@@ -435,23 +430,7 @@ footer {
     font-size: 5em; } }
 @media screen and (max-width: 1240px) {
   body > section.status > div {
-    padding: 1em 2em 30% 0; }
-  body > section.references {
-    position: relative; }
-    body > section.references ul {
-      float: none; }
-    body > section.references svg {
-      position: absolute;
-      top: 10%;
-      right: 0; }
-      body > section.references svg .eye {
-        -webkit-transform: translateX(-170%);
-            -ms-transform: translateX(-170%);
-                transform: translateX(-170%); }
-      body > section.references svg .eye-inner {
-        -webkit-transform: translateX(-380%);
-            -ms-transform: translateX(-380%);
-                transform: translateX(-380%); } }
+    padding: 1em 2em 30% 0; } }
 @media screen and (max-width: 1000px) {
   body > section.status .alex {
     width: 27%; }
@@ -515,7 +494,7 @@ footer {
     -webkit-flex-basis: 49%;
         -ms-flex-preferred-size: 49%;
             flex-basis: 49%; }
-  body > section.references svg {
+  body > section.references img {
     display: none; }
   body > section.references ul {
     width: 100%; }

@@ -1,7 +1,5 @@
 <!doctype html>
-<html lang="en" prefix="og: http://ogp.me/ns#" class="no-js">
-<!-- TAG R1.2 - AW 300914 -->
-<head>
+    <html lang="en" prefix="og: http://ogp.me/ns#" class="no-js"><head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -128,7 +126,7 @@
     </section>
     <section class="references">
         <h2>&hellip; and I think they love me too!</h2>
-        <?php include('static/images/alex-blushing.svg'); ?>
+        <img src="static/images/alex-blushing.svg" alt="An illustration of me, Alex Ward, Blushing" />
         <ul>
             <li>
                 <blockquote itemprop="review">

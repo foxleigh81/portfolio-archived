@@ -18,17 +18,6 @@
             > div { padding: 1em 2em 30% 0; }
         }
 
-        &.references {
-            position: relative;
-            ul { float: none; }
-            svg {
-                position: absolute;
-                top :10%;
-                right:0;
-                .eye { transform: translateX(-170%); }
-                .eye-inner { transform: translateX(-380%); }
-            }
-        }
     }
 }
 
@@ -131,7 +120,7 @@
             li { flex-basis: 49%;}
         }
         &.references {
-            svg { display: none; }
+            img { display: none; }
             ul { width: 100%; }
         }
 

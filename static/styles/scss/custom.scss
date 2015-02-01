@@ -25,7 +25,8 @@ body {
         &:focus { top:0; }
     }
 }
-.no-js .wrapper .warnings { position: static; }
+.no-js .warnings { position: static; }
+.warning { font-weight: bold; color: #000; }
 
 .for-print,
 .js .js-disabled { display: none; }
@@ -218,19 +219,14 @@ body > section {
 
     &.references {
         background-color: #7A9F2C;
-        svg {
-            float: left;
-            margin: 2em;
-            width:28%;
-            height: auto;
+        img {
+            width: 20%;
 
-            .eye { transform: translateX(0); }
-            .eye-inner { transform: translateX(0); }
         }
 
         ul {
             margin: 2em 0 0;
-            width: 67%;
+            width: 80%;
             float: left;
         }
 
@@ -243,6 +239,10 @@ body > section {
         }
 
         blockquote { font-size: 2em; }
+
+        strong {
+            display: block;
+        }
 
     }
 

@@ -11,7 +11,6 @@ Core = {
     constructor: function () {
         // set global variables.
         this.bodyTag = $('body');
-        this.bodyTag.removeClass('no-js').addClass('js'); // We know js has been detected so add the 'js' class to the page.
         this.viewportHeight = this.bodyTag.outerHeight(true);
         this.viewportWidth = this.bodyTag.outerWidth(true);
     },
@@ -19,7 +18,7 @@ Core = {
     init: function () {
         var o = this;
         o.constructor();
-        o.responsiveLogger('wh'); // Only turn on in dev environment
+        //o.responsiveLogger('wh'); // Only turn on in dev environment
     },
 
     responsiveLogger: function(type) {
