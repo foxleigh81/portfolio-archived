@@ -56,7 +56,7 @@
             <div class="cta">
                 <p>I'm <strong>currently available</strong> for projects in the <strong>London</strong> area</p>
                 <a href="#contact" class="button">Get in touch</a>
-                <a href="" class="button">Download CV</a>
+                <a href="https://www.dropbox.com/s/arxwap21eqkw2h3/AlexWard-ContractorCV.docx?dl=0" class="button">Download CV</a>
             </div>
             <span class="scrolly"><i class="fa fa-hand-o-down"></i>scrolly, scrolly!</span>
         </div>
@@ -173,7 +173,7 @@
                 <p><strong>Notice to agents:</strong> Please don’t contact me for permanent roles, I love contracting and no power in the verse will take me away from it.</p>
                 <p>
                     <br />
-                    <a href="" class="button">Download CV</a>
+                    <a href="https://www.dropbox.com/s/arxwap21eqkw2h3/AlexWard-ContractorCV.docx?dl=0" class="button">Download CV</a>
                 </p>
             </div>
         </div>
