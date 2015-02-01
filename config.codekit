@@ -11,61 +11,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/static\/images\/alex-available.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 28522,
-		"inputAbbreviatedPath": "\/static\/images\/alex-available.png",
-		"outputAbbreviatedPath": "\/static\/images\/alex-available.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/static\/images\/alex-avi.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 63557,
-		"inputAbbreviatedPath": "\/static\/images\/alex-avi.jpg",
-		"outputAbbreviatedPath": "\/static\/images\/alex-avi.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/static\/images\/alex-blushing.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 19417,
-		"inputAbbreviatedPath": "\/static\/images\/alex-blushing.png",
-		"outputAbbreviatedPath": "\/static\/images\/alex-blushing.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/static\/images\/alex-smile.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 15562,
-		"inputAbbreviatedPath": "\/static\/images\/alex-smile.png",
-		"outputAbbreviatedPath": "\/static\/images\/alex-smile.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/static\/images\/alex-tables.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 30975,
-		"inputAbbreviatedPath": "\/static\/images\/alex-tables.png",
-		"outputAbbreviatedPath": "\/static\/images\/alex-tables.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/static\/images\/backdrop-available.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -275,6 +220,94 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/static\/images\/logos\/apple-touch-icon-114x114.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9559,
+		"inputAbbreviatedPath": "\/static\/images\/logos\/apple-touch-icon-114x114.png",
+		"outputAbbreviatedPath": "\/static\/images\/logos\/apple-touch-icon-114x114.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/logos\/apple-touch-icon-120x120.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7700,
+		"inputAbbreviatedPath": "\/static\/images\/logos\/apple-touch-icon-120x120.png",
+		"outputAbbreviatedPath": "\/static\/images\/logos\/apple-touch-icon-120x120.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/logos\/apple-touch-icon-144x144.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13676,
+		"inputAbbreviatedPath": "\/static\/images\/logos\/apple-touch-icon-144x144.png",
+		"outputAbbreviatedPath": "\/static\/images\/logos\/apple-touch-icon-144x144.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/logos\/apple-touch-icon-152x152.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15473,
+		"inputAbbreviatedPath": "\/static\/images\/logos\/apple-touch-icon-152x152.png",
+		"outputAbbreviatedPath": "\/static\/images\/logos\/apple-touch-icon-152x152.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/logos\/apple-touch-icon-57x57.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3099,
+		"inputAbbreviatedPath": "\/static\/images\/logos\/apple-touch-icon-57x57.png",
+		"outputAbbreviatedPath": "\/static\/images\/logos\/apple-touch-icon-57x57.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/logos\/apple-touch-icon-72x72.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4534,
+		"inputAbbreviatedPath": "\/static\/images\/logos\/apple-touch-icon-72x72.png",
+		"outputAbbreviatedPath": "\/static\/images\/logos\/apple-touch-icon-72x72.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/logos\/apple-touch-icon-76x76.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4859,
+		"inputAbbreviatedPath": "\/static\/images\/logos\/apple-touch-icon-76x76.png",
+		"outputAbbreviatedPath": "\/static\/images\/logos\/apple-touch-icon-76x76.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/logos\/apple-touch-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3099,
+		"inputAbbreviatedPath": "\/static\/images\/logos\/apple-touch-icon.png",
+		"outputAbbreviatedPath": "\/static\/images\/logos\/apple-touch-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/static\/scripts\/core.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -292,6 +325,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/static\/scripts\/lib\/jquery.min.js",
 		"outputAbbreviatedPath": "\/static\/scripts\/lib\/min\/jquery.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/static\/scripts\/lib\/min\/modernizr.min-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/scripts\/lib\/min\/modernizr.min-min.js",
+		"outputAbbreviatedPath": "\/static\/scripts\/lib\/min\/min\/modernizr.min-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -392,22 +436,6 @@
 		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
-	"\/static\/styles\/scss\/ie.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/static\/styles\/scss\/ie.scss",
-		"outputAbbreviatedPath": "\/static\/styles\/css\/ie.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
-		"useLibsass": 0
-		},
 	"\/static\/styles\/scss\/js.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -482,7 +510,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "alexward.me.uk",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "\/static\/images\/alex-avi.jpg"
+	"iconImageName": "\/static\/images\/logos\/apple-touch-icon-152x152.png"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 1,

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="static/styles/css/print.css" media="print">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="static/images/logos/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/static/images/logos/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" href="static/images/logos/apple-touch-icon.png" />
     <link rel="apple-touch-icon" sizes="57x57" href="static/images/logos/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="static/images/logos/apple-touch-icon-72x72.png" />
     <link rel="apple-touch-icon" sizes="76x76" href="static/images/logos/apple-touch-icon-76x76.png" />
