@@ -19,7 +19,15 @@
         }
 
         &.references {
-            img { float: right; }
+            position: relative;
+            ul { float: none; }
+            svg {
+                position: absolute;
+                top :10%;
+                right:0;
+                .eye { transform: translateX(-170%); }
+                .eye-inner { transform: translateX(-380%); }
+            }
         }
     }
 }
@@ -123,8 +131,8 @@
             li { flex-basis: 49%;}
         }
         &.references {
-            img { display: none; }
-            li { width: 100%; }
+            svg { display: none; }
+            ul { width: 100%; }
         }
 
         &.contact {
@@ -181,7 +189,7 @@
     }
 }
 
-@media screen and (max-width: 500px) and (orientation: landscape) {
+@media screen and (max-width: 750px) and (orientation: landscape) {
 
     .social {
         background:#333;
@@ -202,6 +210,8 @@
             > div { padding: 0 0 25% 0; }
             > div ~ div { padding: 0; }
             .alex {
+                bottom:auto;
+                top:85%;
                 width: auto;
                 height: 50%;
             }
@@ -209,6 +219,12 @@
             .cta { width: 100%; }
 
             .scrolly { display: none; }
+        }
+
+        &.skills {
+            > img {
+                width: 30%;
+            }
         }
     }
 

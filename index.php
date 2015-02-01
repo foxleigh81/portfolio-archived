@@ -65,7 +65,7 @@
     </section>
     <section class="skills">
         <h2>Skills to pay the bills</h2>
-        <img src="static/images/alex-tables.svg" width="20%" alt="An illustration of me, Alex Ward, wearing a tshirt saying 'we used to build websites with tables'">
+        <img src="static/images/alex-tables.svg" alt="An illustration of me, Alex Ward, wearing a tshirt saying 'we used to build websites with tables'">
         <div class="text-wrap">
             <p>I've been in the web industry for a long time (since 1998 to be exact) and over that time I've aquired a wide range of skills. </p>
         </div>
@@ -109,7 +109,7 @@
     </section>
     <section class="brands">
         <h2>I love the brands I've worked with &hellip;</h2>
-        <img src="static/images/alex-smile.svg" width="20%" alt="An illustration of me, Alex Ward smiling.">
+        <img src="static/images/alex-smile.svg" alt="An illustration of me, Alex Ward smiling.">
         <div class="text-wrap">
             <p>I've been fortunate enough to work with some amazing brands over the years.</p>
             <p>Here are a few of my favourites:</p>
@@ -128,7 +128,7 @@
     </section>
     <section class="references">
         <h2>&hellip; and I think they love me too!</h2>
-        <img src="static/images/alex-blushing.svg" width="20%" alt="An illustration of me, Alex Ward blushing.">
+        <?php include('static/images/alex-blushing.svg'); ?>
         <ul>
             <li>
                 <blockquote itemprop="review">
@@ -162,7 +162,7 @@
     </section>
     <section class="contact" id="contact">
         <h2>Get in touch!</h2>
-        <img src="static/images/alex-phone.svg" width="20%" alt="An illustration of me, Alex Ward holding a cup of tea and talking on the phone.">
+        <img src="static/images/alex-phone.svg" alt="An illustration of me, Alex Ward holding a cup of tea and talking on the phone.">
         <div class="col max-2">
             <div class="text-wrap">
                 <p>I’ve recently moved to the amazing city of London and I’m currently available for contract work. If you wish to hire me for a contract or  project, please contact me either using the form or the details below.</p>

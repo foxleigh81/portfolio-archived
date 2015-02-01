@@ -341,18 +341,29 @@ body > section {
         background-image: url(../../images/brands/plusnet-bg.jpg); }
   body > section.references {
     background-color: #7A9F2C; }
-    body > section.references img {
+    body > section.references svg {
       float: left;
       margin: 2em;
-      width: 28%; }
+      width: 28%;
+      height: auto; }
+      body > section.references svg .eye {
+        -webkit-transform: translateX(0);
+            -ms-transform: translateX(0);
+                transform: translateX(0); }
+      body > section.references svg .eye-inner {
+        -webkit-transform: translateX(0);
+            -ms-transform: translateX(0);
+                transform: translateX(0); }
     body > section.references ul {
-      margin: 2em; }
-    body > section.references li {
+      margin: 2em 0 0;
       width: 67%;
-      float: left;
+      float: left; }
+    body > section.references li {
       margin-bottom: 1.5em;
-      padding: 1em;
+      padding: 1.5em;
       background: rgba(0, 0, 0, 0.3); }
+      body > section.references li:nth-child(even) {
+        background: rgba(0, 0, 0, 0.2); }
     body > section.references blockquote {
       font-size: 2em; }
   body > section.contact {
@@ -360,7 +371,8 @@ body > section {
     body > section.contact > h2 {
       text-align: right; }
     body > section.contact img {
-      padding: 1em; }
+      padding: 1em;
+      width: 20%; }
     body > section.contact a {
       color: #fff; }
     body > section.contact a:hover {
@@ -424,8 +436,22 @@ footer {
 @media screen and (max-width: 1240px) {
   body > section.status > div {
     padding: 1em 2em 30% 0; }
-  body > section.references img {
-    float: right; } }
+  body > section.references {
+    position: relative; }
+    body > section.references ul {
+      float: none; }
+    body > section.references svg {
+      position: absolute;
+      top: 10%;
+      right: 0; }
+      body > section.references svg .eye {
+        -webkit-transform: translateX(-170%);
+            -ms-transform: translateX(-170%);
+                transform: translateX(-170%); }
+      body > section.references svg .eye-inner {
+        -webkit-transform: translateX(-380%);
+            -ms-transform: translateX(-380%);
+                transform: translateX(-380%); } }
 @media screen and (max-width: 1000px) {
   body > section.status .alex {
     width: 27%; }
@@ -489,9 +515,9 @@ footer {
     -webkit-flex-basis: 49%;
         -ms-flex-preferred-size: 49%;
             flex-basis: 49%; }
-  body > section.references img {
+  body > section.references svg {
     display: none; }
-  body > section.references li {
+  body > section.references ul {
     width: 100%; }
   body > section.contact .col {
     width: 100%; }
@@ -535,7 +561,7 @@ footer {
     display: none; }
   body > section .scrolly {
     font-size: 1.7em; } }
-@media screen and (max-width: 500px) and (orientation: landscape) {
+@media screen and (max-width: 750px) and (orientation: landscape) {
   .social {
     background: #333;
     padding: 0.5em;
@@ -554,10 +580,14 @@ footer {
     body > section.status > div ~ div {
       padding: 0; }
     body > section.status .alex {
+      bottom: auto;
+      top: 85%;
       width: auto;
       height: 50%; }
     body > section.status .cta {
       width: 100%; }
     body > section.status .scrolly {
-      display: none; } }
+      display: none; }
+  body > section.skills > img {
+    width: 30%; } }
 /* The styles in this sheet are only visible when JS is enabled */
