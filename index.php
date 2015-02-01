@@ -170,7 +170,7 @@
                     <span><strong>Skype:</strong> alexward1981</span>
                     <span><strong>Carrier Pigeon:</strong> No longer available</span>
                 </div>
-                <p><strong>Notice to agents:</strong> Please don’t contact me for permanent roles, I love contracting and no power in the verse will take me away from it.</p>
+                <p><strong>Notice to agents:</strong> Please don’t contact me for permanent roles, I love contracting and no power in the 'verse will take me away from it.</p>
                 <p>
                     <br />
                     <a href="https://www.dropbox.com/s/arxwap21eqkw2h3/AlexWard-ContractorCV.docx?dl=0" class="button">Download CV</a>
@@ -179,42 +179,48 @@
         </div>
         <div class="col max-4">
             <form action="process.php" method="POST">
+                <div class="warning">You must have javascript enabled in order to submit this form</div>
                 <fieldset>
                     <legend>Contact Alex Ward</legend>
                     <div class="input-container">
-                        <label for="user-name">Hello, my name is:</label>
-                        <input type="text" name="user-name" id="user-name" />
+                        <label for="user-name">Hello, my name is*:</label>
+                        <input type="text" name="user-name" id="user-name" class="v-text required" data-validation="You must enter a name" disabled />
                     </div>
                     <div class="input-container">
-                        <label for="user-content">and I have the following to say:</label>
-                        <textarea name="user-content" id="user-content"> </textarea>
+                        <label for="user-content">and I have the following to say*:</label>
+                        <textarea rows="10" name="user-content" id="user-content" class="required" data-validation="Please tell me why you are emailing me" disabled></textarea>
                     </div>
                     <div class="input-container">
                         <label for="user-tel">You can call me on:</label>
-                        <input type="text" name="user-tel" id="user-tel" />
+                        <input type="text" name="user-tel" id="user-tel" class="v-tel" data-validation="Please enter a valid uk phone number" disabled />
                     </div>
                     <div class="input-container">
-                        <label for="user-email">or email me at:</label>
-                        <input type="text" name="user-email" id="user-email" />
+                        <label for="user-email">or email me at*:</label>
+                        <input type="text" name="user-email" id="user-email" class="v-email required" data-validation="Please provide a valid email address" disabled />
                     </div>
                     <div class="input-container radio">
-                        <input type="radio" name="contract-type" id="contract-type-contract" value="contract" checked>
+                        <input type="radio" name="contract-type" id="contract-type-contract" value="contract" checked disabled />
                         <label for="contract-type-contract">I am interested in hiring you for a contract</label>
                     </div>
                     <div class="input-container radio">
-                        <input type="radio" name="contract-type" id="contract-type-freelance" value="freelance">
+                        <input type="radio" name="contract-type" id="contract-type-freelance" value="freelance" disabled />
                         <label for="contract-type-freelance">I'd like you to build me a website</label>
                     </div>
                     <div class="input-container">
-                        <button class="button" type="submit">Get in touch</button>
+                        <button class="button" type="submit" disabled>Get in touch</button>
                     </div>
                 </fieldset>
             </form>
         </div>
     </section>
     <footer>
-        <p>&copy;MMV Alexander Ward and BBQ Digital Limited. All Rights reserved.</p>
-        <p>Registered in England &amp; Wales 08480746.</p>
+        <div class="info">
+            <p>&copy;MMV Alexander Ward and BBQ Digital Limited. All Rights reserved.</p>
+            <p>Registered in England &amp; Wales 08480746.</p>
+        </div>
+        <div class="links">
+            <a href="">Roadmap</a>
+        </div>
     </footer>
     <script src="static/scripts/core.js"></script>
 </body>

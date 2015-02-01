@@ -399,6 +399,16 @@ body > section {
         display: none; }
       body > section.contact form .input-container {
         margin-bottom: 1em; }
+      body > section.contact form .posted-message {
+        font-size: 1.4em;
+        background-color: rgba(0, 0, 0, 0.3);
+        padding: 1em;
+        margin-bottom: 1em; }
+        body > section.contact form .posted-message .close {
+          display: block;
+          margin-top: 0.5em;
+          color: rgba(255, 255, 255, 0.5);
+          cursor: pointer; }
       body > section.contact form label {
         display: block;
         font-size: 1.6em;
@@ -408,12 +418,21 @@ body > section {
         padding: 1em;
         background-color: #fff;
         border: 0; }
+        body > section.contact form input:focus, body > section.contact form textarea:focus {
+          background-color: #eee;
+          outline: 0; }
+        body > section.contact form input.error-flag, body > section.contact form textarea.error-flag {
+          background-color: #f49a9a; }
       body > section.contact form .radio {
         margin: 2em 0; }
         body > section.contact form .radio input {
           float: left;
           width: auto;
           margin-right: 1em; }
+      body > section.contact form .inline-error {
+        font-size: 1.2em;
+        margin-top: 0.5em;
+        font-weight: bold; }
       body > section.contact form button {
         cursor: pointer;
         width: 100%;
@@ -432,7 +451,13 @@ body > section {
 footer {
   padding: 1em;
   font-size: 1.4em;
-  background-color: #424242; }
+  background-color: #424242;
+  overflow: hidden; }
+  footer .info {
+    float: right; }
+  footer a {
+    color: #fff;
+    text-decoration: underline; }
 
 /* This is where all media queries are held */
 @media screen and (min-width: 1080px) {

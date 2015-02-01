@@ -290,7 +290,19 @@ body > section {
             legend { display: none; }
 
             .input-container { margin-bottom: 1em; }
+            .posted-message {
+                font-size: 1.4em;
+                background-color: rgba(#000, 0.3);
+                padding:1em;
+                margin-bottom: 1em;
 
+                .close {
+                    display: block;
+                    margin-top: 0.5em;
+                    color: rgba(#fff, 0.5);
+                    cursor: pointer;
+                }
+            }
             label {
                 display: block;
                 font-size: 1.6em;
@@ -302,6 +314,13 @@ body > section {
                 padding:1em;
                 background-color: #fff;
                 border:0;
+
+                &:focus {
+                    background-color: #eee;
+                    outline: 0;
+                }
+
+                &.error-flag { background-color: #f49a9a; }
             }
 
             .radio {
@@ -311,6 +330,12 @@ body > section {
                     width: auto;
                     margin-right: 1em;
                 }
+            }
+
+            .inline-error {
+                font-size: 1.2em;
+                margin-top: 0.5em;
+                font-weight: bold
             }
 
             button {
@@ -339,4 +364,12 @@ footer {
     padding:1em;
     font-size: 1.4em;
     background-color: #424242;
+    overflow: hidden;
+
+    .info { float: right; }
+
+    a {
+        color: #fff;
+        text-decoration: underline;
+    }
 }
