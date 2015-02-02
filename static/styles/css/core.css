@@ -175,7 +175,8 @@ body {
 .social {
   position: absolute;
   right: 1em;
-  top: 1em; }
+  top: 1em;
+  z-index: 9999; }
   .social li {
     display: inline-block; }
   .social a {
@@ -605,7 +606,7 @@ footer {
     display: none; }
   section .scrolly {
     font-size: 1.7em; } }
-@media screen and (max-width: 750px) and (orientation: landscape) {
+@media screen and (max-height: 810px) and (orientation: landscape) {
   .social {
     background: #333;
     padding: 0.5em;
