@@ -35,11 +35,12 @@ Core = {
     init: function () {
         var o = this;
         o.constructor();
-        o.responsiveLogger('wh'); // Only turn on in dev environment
+        //o.responsiveLogger('wh'); // Only turn on in dev environment
+        //o.outputModernizr('screen');
     },
 
     responsiveLogger: function(type) {
-        // Function to output the screen width and/or height
+        // Function to output the screen width and/or height.
         var viewportWidth = null,
             viewportHeight = null,
             outputString = '',
@@ -67,6 +68,17 @@ Core = {
         );
         console.warn('The "startLogging()" function is currently active. It should not be allowed to run in a production environment');
     },
+
+    outputModernizr: function(loc) {
+        // Function to display all the modernizr classes on the device.
+        var tags = document.getElementsByTagName('html')[0].className;
+        if (loc === 'console') {
+            console.info(tags);
+        } else {
+           screenLogger = $('<div style="position:relative;z-index:10000;padding:10px;font-size:16px;background:rgba(0,0,0,0.8);color:#fff;"></div>').prependTo('body').html(tags);
+        }
+
+    }
 };
 
 Forms = {
