@@ -399,6 +399,7 @@ footer {
     &.pinned { min-height: 10%; }
     a {
         color: #fff;
-        text-decoration: underline;
+        &:hover { text-decoration: underline; }
     }
+    li { display: inline-block; }
 }
