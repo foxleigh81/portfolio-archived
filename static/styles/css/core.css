@@ -538,15 +538,17 @@ footer {
 /* smaller svgs are still used as normal. */
 @media screen and (max-width: 550px) {
   section.status > div {
-    background-image: url("/static/images/backdrop-available.png");
+    background-image: url("../../images/backdrop-available.png");
     padding: 1em 2em 25% 0; }
+  section.status > div ~ div {
+    padding: 0; }
   section.status h1 {
     font-size: 5em;
     font-weight: bold; }
   section.status h2 {
     font-size: 3em; }
   section.status .alex {
-    width: 45%; }
+    width: 35%; }
   section.status .cta {
     font-size: 3em; }
   section.brands li {

@@ -102,9 +102,11 @@
     section {
         &.status {
             > div {
-                background-image: url('/static/images/backdrop-available.png');
+                background-image: url('../../images/backdrop-available.png');
                 padding: 1em 2em 25% 0;
             }
+
+            > div ~ div { padding: 0; }
 
             h1 {
                 font-size: 5em;
@@ -113,7 +115,7 @@
 
             h2 { font-size: 3em; }
 
-            .alex { width: 45%; }
+            .alex { width: 35%; }
             .cta { font-size: 3em; }
         }
 
