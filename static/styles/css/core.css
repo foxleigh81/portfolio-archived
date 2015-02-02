@@ -482,20 +482,20 @@ footer {
 
 /* This is where all media queries are held */
 @media screen and (min-width: 1080px) {
-  body > section.status > div {
+  section.status > div {
     padding: 1em 2em 25% 0; }
-  body > section.status .cta {
+  section.status .cta {
     font-size: 5em; } }
 @media screen and (max-width: 1240px) {
-  body > section.status > div {
+  section.status > div {
     padding: 1em 2em 30% 0; } }
 @media screen and (max-width: 1000px) {
-  body > section.status .alex {
+  section.status .alex {
     width: 27%; }
-  body > section.skills img {
+  section.skills img {
     width: 40%;
     margin: 1em; }
-  body > section.skills .skill-table {
+  section.skills .skill-table {
     clear: both; } }
 @media screen and (max-width: 850px) {
   .social li {
@@ -504,31 +504,31 @@ footer {
       margin-bottom: 0.2em;
       margin-left: 0; }
 
-  body > section.status > div {
+  section.status > div {
     padding: 1em 2em 50% 0; }
-  body > section.status .cta {
+  section.status .cta {
     width: 70%;
     font-size: 3.2em; }
-  body > section.contact > img {
+  section.contact > img {
     display: none; }
-  body > section.contact .col {
+  section.contact .col {
     width: 49%; } }
 @media screen and (max-width: 750px) {
-  body > section.skills h2, body > section.brands h2, body > section.references h2, body > section.contact h2 {
+  section.skills h2, section.brands h2, section.references h2, section.contact h2 {
     text-align: center;
     font-size: 2.8em; }
-  body > section.status .cta {
+  section.status .cta {
     font-size: 4.5em; }
-  body > section.skills img {
+  section.skills img {
     width: 90%; }
-  body > section.skills .skill-table {
+  section.skills .skill-table {
     margin: 0;
     clear: both;
     display: block; }
-    body > section.skills .skill-table .cell {
+    section.skills .skill-table .cell {
       display: block;
       width: 100%; }
-      body > section.skills .skill-table .cell li {
+      section.skills .skill-table .cell li {
         display: inline-block;
         width: 48%;
         padding-right: 1.5%; } }
@@ -536,27 +536,27 @@ footer {
 /* they assume a slower connection and replace large SVGs with pngs, */
 /* smaller svgs are still used as normal. */
 @media screen and (max-width: 550px) {
-  body > section.status > div {
+  section.status > div {
     background-image: url("/static/images/backdrop-available.png");
     padding: 1em 2em 25% 0; }
-  body > section.status h1 {
+  section.status h1 {
     font-size: 5em;
     font-weight: bold; }
-  body > section.status h2 {
+  section.status h2 {
     font-size: 3em; }
-  body > section.status .alex {
+  section.status .alex {
     width: 45%; }
-  body > section.status .cta {
+  section.status .cta {
     font-size: 3em; }
-  body > section.brands li {
+  section.brands li {
     -webkit-flex-basis: 49%;
         -ms-flex-preferred-size: 49%;
             flex-basis: 49%; }
-  body > section.references img {
+  section.references img {
     display: none; }
-  body > section.references ul {
+  section.references ul {
     width: 100%; }
-  body > section.contact .col {
+  section.contact .col {
     width: 100%; }
 
   footer p {
@@ -564,6 +564,13 @@ footer {
     margin-bottom: 0.5em; }
   footer a {
     color: #fff; } }
+@media screen and (max-width: 400px) {
+  section.status > div {
+    padding: 1em 2em 20% 0; }
+  section.status > div ~ div {
+    padding: 0 2em 0 0; }
+  section.status .alex {
+    width: 40%; } }
 @media screen and (max-width: 350px) {
   .social {
     background: #333;
@@ -576,27 +583,27 @@ footer {
       .social li a {
         margin: 0 0.3em; }
 
-  body > section.status > div {
+  section.status > div {
     padding: 0 0 25% 0; }
-  body > section.status header {
+  section.status header {
     text-align: left; }
-  body > section.status h1 {
+  section.status h1 {
     font-size: 3.5em;
     font-weight: bold; }
-  body > section.status h2 {
+  section.status h2 {
     font-size: 1.5em; }
-  body > section.status .alex {
+  section.status .alex {
     width: 25%; }
-  body > section.status .cta {
+  section.status .cta {
     position: relative;
     bottom: 0;
     padding-top: 0.2em;
     font-size: 2em; }
-  body > section.status .button {
+  section.status .button {
     font-size: 0.8rem; }
-  body > section.brands > img, body > section.references > img, body > section.contact > img {
+  section.brands > img, section.references > img, section.contact > img {
     display: none; }
-  body > section .scrolly {
+  section .scrolly {
     font-size: 1.7em; } }
 @media screen and (max-width: 750px) and (orientation: landscape) {
   .social {
@@ -610,21 +617,21 @@ footer {
       .social li a {
         margin: 0 0.3em; }
 
-  body > section.status {
+  section.status {
     height: auto; }
-    body > section.status > div {
+    section.status > div {
       padding: 0 0 25% 0; }
-    body > section.status > div ~ div {
+    section.status > div ~ div {
       padding: 0; }
-    body > section.status .alex {
-      bottom: auto;
-      top: 85%;
-      width: auto;
-      height: 50%; }
-    body > section.status .cta {
+    section.status .alex {
+      padding: 0 1em;
+      float: left;
+      position: static;
+      width: 20%; }
+    section.status .cta {
       width: 100%; }
-    body > section.status .scrolly {
+    section.status .scrolly {
       display: none; }
-  body > section.skills > img {
+  section.skills > img {
     width: 30%; } }
 /* The styles in this sheet are only visible when JS is enabled */

@@ -2,7 +2,7 @@
 
 
 @media screen and (min-width: 1080px) {
-    body > section {
+    section {
         &.status {
             > div { padding: 1em 2em 25% 0; }
             .cta {
@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 1240px) {
-    body > section {
+    section {
         &.status {
             > div { padding: 1em 2em 30% 0; }
         }
@@ -22,7 +22,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-    body > section {
+    section {
         &.status {
             .alex { width: 27%; }
         }
@@ -43,7 +43,7 @@
             margin-left: 0;
         }
     }
-    body > section {
+  section {
         &.status {
             > div { padding: 1em 2em 50% 0; }
             .cta {
@@ -60,7 +60,7 @@
 }
 
 @media screen and (max-width: 750px) {
-    body > section {
+    section {
 
         &.skills h2, &.brands h2, &.references h2, &.contact h2 {
             text-align: center;
@@ -99,21 +99,22 @@
 /* smaller svgs are still used as normal. */
 
 @media screen and (max-width: 550px) {
-    body > section {
+    section {
         &.status {
             > div {
                 background-image: url('/static/images/backdrop-available.png');
                 padding: 1em 2em 25% 0;
             }
+
             h1 {
                 font-size: 5em;
                 font-weight: bold;
             }
+
             h2 { font-size: 3em; }
+
             .alex { width: 45%; }
-            .cta {
-                font-size: 3em;
-            }
+            .cta { font-size: 3em; }
         }
 
         &.brands {
@@ -139,6 +140,16 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    section {
+        &.status {
+            > div { padding: 1em 2em 20% 0; }
+            > div ~ div { padding: 0 2em 0 0; }
+            .alex { width: 40%; }
+        }
+    }
+}
+
 @media screen and (max-width: 350px) {
     .social {
         background:#333;
@@ -153,7 +164,7 @@
         }
     }
 
-     body > section {
+     section {
         &.status {
             > div { padding: 0 0 25% 0; }
             header { text-align: left; }
@@ -193,16 +204,16 @@
         }
     }
 
-    body > section {
+    section {
         &.status {
             height: auto;
             > div { padding: 0 0 25% 0; }
             > div ~ div { padding: 0; }
             .alex {
-                bottom:auto;
-                top:85%;
-                width: auto;
-                height: 50%;
+                padding: 0 1em;
+                float: left;
+                position: static;
+                width: 20%;
             }
 
             .cta { width: 100%; }

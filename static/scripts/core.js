@@ -35,7 +35,7 @@ Core = {
     init: function () {
         var o = this;
         o.constructor();
-        //o.responsiveLogger('wh'); // Only turn on in dev environment
+        o.responsiveLogger('wh'); // Only turn on in dev environment
     },
 
     responsiveLogger: function(type) {
