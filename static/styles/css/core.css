@@ -635,14 +635,17 @@ footer {
     section.status > div ~ div {
       padding: 0; }
     section.status .alex {
-      padding: 0 1em;
-      float: left;
+      padding: 1em;
+      float: right;
       position: static;
-      width: 20%; }
+      width: 15%; }
     section.status .cta {
       width: 100%; }
     section.status .scrolly {
       display: none; }
   section.skills > img {
-    width: 30%; } }
+    width: 30%; }
+  section.references img {
+    width: 16%;
+    margin: 2em 0 0 1em; } }
 /* The styles in this sheet are only visible when JS is enabled */

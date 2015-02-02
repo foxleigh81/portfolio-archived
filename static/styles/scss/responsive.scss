@@ -220,10 +220,10 @@
             > div { padding: 0 0 25% 0; }
             > div ~ div { padding: 0; }
             .alex {
-                padding: 0 1em;
-                float: left;
+                padding: 1em;
+                float: right;
                 position: static;
-                width: 20%;
+                width: 15%;
             }
 
             .cta { width: 100%; }
@@ -234,6 +234,13 @@
         &.skills {
             > img {
                 width: 30%;
+            }
+        }
+
+        &.references {
+            img {
+                width: 16%;
+                margin: 2em 0 0 1em;
             }
         }
     }
