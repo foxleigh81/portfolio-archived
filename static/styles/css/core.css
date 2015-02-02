@@ -136,6 +136,8 @@ p em {
   font-size: 1.5rem;
   font-weight: bold;
   border: 0; }
+  .button:hover, .button:focus {
+    background-color: rgba(255, 255, 255, 0.8); }
 
 /* This is where all custom styles are held */
 /* Global styles */
@@ -192,17 +194,17 @@ body {
     .social a span {
       position: absolute;
       left: -9999px; }
-    .social a:hover {
+    .social a:hover, .social a:focus {
       color: #fff; }
-      .social a:hover.fa-facebook-official {
+      .social a:hover.fa-facebook-official, .social a:focus.fa-facebook-official {
         background-color: #47639E; }
-      .social a:hover.fa-twitter {
+      .social a:hover.fa-twitter, .social a:focus.fa-twitter {
         background-color: #55ACEE; }
-      .social a:hover.fa-dribbble {
+      .social a:hover.fa-dribbble, .social a:focus.fa-dribbble {
         background-color: #C01C6F; }
-      .social a:hover.fa-github {
+      .social a:hover.fa-github, .social a:focus.fa-github {
         background-color: #333333; }
-      .social a:hover.fa-behance-square {
+      .social a:hover.fa-behance-square, .social a:focus.fa-behance-square {
         background-color: #0079ff; }
 
 section {
@@ -383,12 +385,13 @@ section {
       width: 20%; }
     section.generic a, section.contact a {
       color: #fff; }
-    section.generic a:hover, section.contact a:hover {
-      color: #3c2256; }
+      section.generic a:hover, section.generic a:focus, section.contact a:hover, section.contact a:focus {
+        color: #3c2256; }
     section.generic .button, section.contact .button {
       color: #221431; }
-      section.generic .button:hover, section.contact .button:hover {
-        background-color: rgba(255, 255, 255, 0.9); }
+      section.generic .button:focus, section.generic .button:hover, section.contact .button:focus, section.contact .button:hover {
+        background-color: rgba(255, 255, 255, 0.9);
+        outline: 0; }
     section.generic .details, section.contact .details {
       padding: 1em 0; }
       section.generic .details span, section.contact .details span {
@@ -479,7 +482,7 @@ footer {
     min-height: 10%; }
   footer a {
     color: #fff; }
-    footer a:hover {
+    footer a:hover, footer a:focus {
       text-decoration: underline; }
   footer li {
     display: inline-block; }

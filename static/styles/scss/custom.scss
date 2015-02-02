@@ -51,7 +51,8 @@ body {
             left:-9999px;
         }
 
-        &:hover {
+        &:hover,
+        &:focus {
             color: #fff;
             &.fa-facebook-official { background-color: #47639E; }
             &.fa-twitter { background-color: #55ACEE; }
@@ -270,12 +271,18 @@ section {
             padding: 1em;
             width:20%;
         }
-        a { color: #fff; }
-        a:hover { color: darken(#8856BB, 30%); }
+        a { color: #fff;
+            &:hover,
+            &:focus  { color: darken(#8856BB, 30%); }
+        }
+
         .button {
             color: darken(#8856BB, 40%);
+
+            &:focus,
             &:hover {
                 background-color: rgba(#FFF, 0.9);
+                outline:0;
             }
         }
         .details {
@@ -399,7 +406,7 @@ footer {
     &.pinned { min-height: 10%; }
     a {
         color: #fff;
-        &:hover { text-decoration: underline; }
+        &:hover, &:focus { text-decoration: underline; }
     }
     li { display: inline-block; }
 }
