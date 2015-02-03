@@ -66,7 +66,7 @@
                     <li>Angular.js</li>
                     <li>OO PHP</li>
                     <li>PHP MVC Frameworks (eg Symfony 2, Laravel etc...)</li>
-                    <li>CMS Templating (Drual, EpiServer, Umbraco)</li>
+                    <li>CMS Templating (Drupal, EpiServer, Umbraco)</li>
                     <li>3D Modelling</li>
                 </ul>
             </div>
