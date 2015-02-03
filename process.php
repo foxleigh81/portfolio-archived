@@ -23,6 +23,6 @@
        header('Location: '. '/index.php?posted=true');
        die();
     } else {
-      header('Location: '. '/error');
+      header('Location: '. '/error.php');
     }
 ?>

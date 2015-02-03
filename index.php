@@ -159,7 +159,7 @@
                     </div>
                     <div class="input-container">
                         <label for="user-tel">You can call me on:</label>
-                        <input type="text" name="user-tel" id="user-tel" class="v-tel" data-validation="Please enter a valid uk phone number" disabled />
+                        <input type="text" name="user-tel" id="user-tel" class="v-phone" data-validation="Please enter a valid uk phone number" disabled />
                     </div>
                     <div class="input-container">
                         <label for="user-email">or email me at*:</label>
