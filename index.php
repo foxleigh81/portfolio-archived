@@ -29,10 +29,10 @@
         </div>
     </section>
     <section class="skills">
-        <h2>Skills to pay the bills</h2>
+        <h2>I know my stuff!</h2>
         <img src="static/images/alex-tables.svg" alt="An illustration of me, Alex Ward, wearing a tshirt saying 'we used to build websites with tables'">
         <div class="text-wrap">
-            <p>I've been in the web industry for a long time (since 1998 to be exact) and over that time I've aquired a wide range of skills. </p>
+            <p>I've been in the web industry for a long time (since 1998 to be exact) and over that time I've acquired a wide range of skills. </p>
         </div>
         <div class="skill-table">
             <div class="cell max-3">
