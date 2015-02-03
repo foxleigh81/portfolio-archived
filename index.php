@@ -14,7 +14,7 @@
                 <li><a class="fa fa-twitter" title="Follow me on Twitter" href="https://twitter.com/alexbward"><span>Twitter</span></a></li>
                 <li><a class="fa fa-facebook-official" title="Check me out on Facebook" href="https://www.facebook.com/alexward1981"><span>Facebook</span></a></li>
             </ul>
-            <header>
+            <header role="banner">
                 <h1>I'm Alex</h1>
                 <h2>I design and build <strong>UX focused</strong> websites</h2>
             </header>

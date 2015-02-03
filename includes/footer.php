@@ -1,9 +1,9 @@
-    <footer class="pinned">
+    <footer role="contentinfo" class="pinned">
         <div class="info">
             <p>&copy;MMV Alexander Ward and BBQ Digital Limited. All Rights reserved.</p>
             <p>Registered in England &amp; Wales 08480746.</p>
         </div>
-        <div class="links">
+        <nav role="navigation" class="links">
            <ul>
                <li>
                    <a href="index.php">Home</a> |
@@ -18,7 +18,7 @@
                    <a href="https://www.dropbox.com/s/arxwap21eqkw2h3/AlexWard-ContractorCV.docx?dl=0">Download my CV</a>
                </li>
            </ul>
-        </div>
+        </nav>
     </footer>
     <script src="static/scripts/core.js"></script>
 </body>
