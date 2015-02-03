@@ -105,7 +105,7 @@
             <li>
                 <blockquote itemprop="review">
                     <span class="hide" itemprop="itemreviewed">Alex Ward</span>
-                    <strong itemprop="description">"Alex's deep experience in this area is evident both in the quality of his work, and his clear articulation of problems/challenges alongside workable solutions. I would happily recommend Alex and BBQ Digital, and would certainly use them again."</strong>
+                    <strong itemprop="description">"Alex's deep experience in this area is evident both in the quality of his work, and his clear articulation of problems/challenges alongside workable solutions. I would happily recommend Alex, and would certainly use him again."</strong>
                     <br> - <span itemprop="reviewer">David Fowler, Business &amp; Systems Integration Manager @ Accenture</span>
                 </blockquote>
             </li>
