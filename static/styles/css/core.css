@@ -145,24 +145,6 @@ body {
   font-family: "Lato", arial, sans-serif;
   color: #fff; }
 
-.skip a {
-  position: absolute;
-  top: -80px;
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 1em;
-  font-size: 1.6em;
-  text-align: center;
-  background: #f00;
-  color: #fff;
-  z-index: 999999;
-  -webkit-transition: top 1s;
-  /* For Safari 3.1 to 6.0 */
-  transition: top 1s; }
-  .skip a:focus {
-    top: 0; }
-
 .no-js .warnings {
   position: static; }
 

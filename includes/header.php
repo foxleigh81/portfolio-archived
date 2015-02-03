@@ -37,4 +37,3 @@
     <meta property="og:site_name" content="Alex Ward" />
 </head>
 <body>
-    <div class="skip"><a href="#main">Skip to main content</a></div>
