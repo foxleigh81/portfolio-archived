@@ -1,6 +1,25 @@
 <?php
-    $title = "Currently available for UX contracts";
-    $description = "I am a highly skilled and experienced UI developer and usability consultant. I am available for contracts in the London area.";
+    // Options are 'available', 'on-assignment' and 'on-holiday';
+    $set_status = "available"
+
+    switch ($set_status) {
+        case 'available':
+            $title = "Currently available for UX contracts";
+            $description = "I am a highly skilled and experienced UI developer and usability consultant. I am available for contracts in the London area.";
+        break;
+        case 'on-assignment':
+            $title = "Currently available for UX contracts";
+            $description = "I am a highly skilled and experienced UI developer and usability consultant. I am available for contracts in the London area.";
+            $freeDate = ''
+        break;
+        case 'on-holiday':
+            $title = "Currently available for UX contracts";
+            $description = "I am a highly skilled and experienced UI developer and usability consultant. I am available for contracts in the London area.";
+            $freeDate = ''
+        break;
+    }
+
+    
     $canonical = "index.php";
 
     require_once('includes/header.php');
