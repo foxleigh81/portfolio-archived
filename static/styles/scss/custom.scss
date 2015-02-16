@@ -65,16 +65,44 @@ section {
 
 .status {
     height:100%;
-    background-color: #666633;
+    
+
     > div {
-        background-image: url('../../images/backdrop-available.png');
         background-size: 101% auto;
         background-repeat: no-repeat;
         background-position: bottom center;
-        background-color: #bbe6f8;
-        padding: 1em 2em 25% 0;
+    }
 
-        .svg & { background-image: url('../../images/backdrop-available.svg'); }
+    &.is-available {  
+        background-color: #666633;
+        > div {
+            background-image: url('../../images/backdrop-available.png');
+            background-color: #bbe6f8;
+            padding: 1em 2em 25% 0;
+
+            .svg & { background-image: url('../../images/backdrop-available.svg'); }
+        }
+    }
+
+    &.is-on-assignment {
+        background-color: #4F5C68;
+        > div {
+            background-image: url('../../images/backdrop-on-assignment.png');
+            background-color: #ccc;
+        
+        .svg & { background-image: url('../../images/backdrop-on-assignment.svg'); }
+        }
+    }
+
+    &.is-on-holiday {
+        background-color: #4F5C68;
+        > div {
+            background-image: url('../../images/backdrop-on-holiday.png');
+            background-color: #ccc;
+            padding: 1em 2em 25% 0;
+        
+        .svg & { background-image: url('../../images/backdrop-on-holiday.svg'); }
+        }
     }
 
     > div ~ div { background: none;
@@ -105,18 +133,31 @@ section {
         position:absolute;
         right: 2%;
         bottom: 2%;
-        width: 20%;
     }
 
     .cta {
         padding: 0.5em;
         font-size: 4em;
-        width: 80%;
         .button {
             display: inline-block;
             margin-top: 0.5em;
             color: #659758;
         }
+    }
+
+    &.is-available {
+        .alex { width: 20%; }
+        .cta { width: 80%; }
+    }
+
+    &.is-on-assignment {
+        .alex { width: 35%; }
+        .cta { width: 65%; }
+    }
+
+    &.is-on-holiday {
+        .alex { width: 20%; }
+        .cta { width: 80%; }
     }
 }
 

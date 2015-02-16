@@ -206,17 +206,34 @@ section {
   padding: 1.5em 1em; }
 
 .status {
-  height: 100%;
-  background-color: #666633; }
+  height: 100%; }
   .status > div {
-    background-image: url("../../images/backdrop-available.png");
     background-size: 101% auto;
     background-repeat: no-repeat;
-    background-position: bottom center;
-    background-color: #bbe6f8;
-    padding: 1em 2em 25% 0; }
-    .svg .status > div {
-      background-image: url("../../images/backdrop-available.svg"); }
+    background-position: bottom center; }
+  .status.is-available {
+    background-color: #666633; }
+    .status.is-available > div {
+      background-image: url("../../images/backdrop-available.png");
+      background-color: #bbe6f8;
+      padding: 1em 2em 25% 0; }
+      .svg .status.is-available > div {
+        background-image: url("../../images/backdrop-available.svg"); }
+  .status.is-on-assignment {
+    background-color: #4F5C68; }
+    .status.is-on-assignment > div {
+      background-image: url("../../images/backdrop-on-assignment.png");
+      background-color: #ccc; }
+      .svg .status.is-on-assignment > div {
+        background-image: url("../../images/backdrop-on-assignment.svg"); }
+  .status.is-on-holiday {
+    background-color: #4F5C68; }
+    .status.is-on-holiday > div {
+      background-image: url("../../images/backdrop-on-holiday.png");
+      background-color: #ccc;
+      padding: 1em 2em 25% 0; }
+      .svg .status.is-on-holiday > div {
+        background-image: url("../../images/backdrop-on-holiday.svg"); }
   .status > div ~ div {
     background: none; }
     .svg .status > div ~ div {
@@ -239,16 +256,26 @@ section {
   .status .alex {
     position: absolute;
     right: 2%;
-    bottom: 2%;
-    width: 20%; }
+    bottom: 2%; }
   .status .cta {
     padding: 0.5em;
-    font-size: 4em;
-    width: 80%; }
+    font-size: 4em; }
     .status .cta .button {
       display: inline-block;
       margin-top: 0.5em;
       color: #659758; }
+  .status.is-available .alex {
+    width: 20%; }
+  .status.is-available .cta {
+    width: 80%; }
+  .status.is-on-assignment .alex {
+    width: 35%; }
+  .status.is-on-assignment .cta {
+    width: 65%; }
+  .status.is-on-holiday .alex {
+    width: 20%; }
+  .status.is-on-holiday .cta {
+    width: 80%; }
 
 .skills {
   background-color: #3D82CD; }
@@ -513,12 +540,12 @@ footer {
 
 /* This is where all media queries are held */
 @media screen and (min-width: 1080px) {
-  .status > div {
+  .status.is-available > div, .status.on-assignment > div, .status.on-holiday > div {
     padding: 1em 2em 25% 0; }
   .status .cta {
     font-size: 5em; } }
 @media screen and (max-width: 1240px) {
-  .status > div {
+  .status.is-available > div, .status.on-assignment > div, .status.on-holiday > div {
     padding: 1em 2em 30% 0; } }
 @media screen and (max-width: 1000px) {
   .status .alex {
@@ -536,7 +563,7 @@ footer {
       margin-bottom: 0.2em;
       margin-left: 0; }
 
-  .status > div {
+  .status.is-available > div, .status.on-assignment > div, .status.on-holiday > div {
     padding: 1em 2em 50% 0; }
   .status .cta {
     width: 70%;
@@ -577,7 +604,7 @@ footer {
     font-size: 6em; }
   .status h2 {
     font-size: 2em; }
-  .status > div {
+  .status.is-available > div, .status.on-assignment > div, .status.on-holiday > div {
     padding: 1em 2em 25% 0; }
   .status > div ~ div {
     padding: 0; } }
@@ -585,8 +612,9 @@ footer {
 /* they assume a slower connection and replace large SVGs with pngs, */
 /* smaller svgs are still used as normal. */
 @media screen and (max-width: 550px) {
-  .status > div {
-    background-image: url("../../images/backdrop-available.png");
+  .status.is-available > div {
+    background-image: url("../../images/backdrop-available.png"); }
+  .status.is-available > div, .status.on-assignment > div, .status.on-holiday > div {
     padding: 1em 2em 25% 0; }
   .status > div ~ div {
     padding: 0; }
@@ -619,7 +647,7 @@ footer {
   footer a {
     color: #fff; } }
 @media screen and (max-width: 400px) {
-  .status > div {
+  .status.is-available > div, .status.on-assignment > div, .status.on-holiday > div {
     padding: 1em 2em 20% 0; }
   .status > div ~ div {
     padding: 0 2em 0 0; }
@@ -637,7 +665,7 @@ footer {
       .social li a {
         margin: 0 0.3em; }
 
-  .status > div {
+  .status.is-available > div, .status.on-assignment > div, .status.on-holiday > div {
     padding: 0 0 25% 0; }
   .status header {
     text-align: left; }
@@ -675,7 +703,7 @@ footer {
 
   .status {
     height: auto; }
-    .status > div {
+    .status.is-available > div, .status.on-assignment > div, .status.on-holiday > div {
       padding: 0 0 25% 0; }
     .status > div ~ div {
       padding: 0; }

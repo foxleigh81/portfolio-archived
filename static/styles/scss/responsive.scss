@@ -1,7 +1,7 @@
 /* This is where all media queries are held */
 @media screen and (min-width: 1080px) {
     .status {
-        > div { padding: 1em 2em 25% 0; }
+        &.is-available > div , &.on-assignment > div , &.on-holiday > div { padding: 1em 2em 25% 0; }
         .cta {
             font-size: 5em;
         }
@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 1240px) {
     .status {
-        > div { padding: 1em 2em 30% 0; }
+        &.is-available > div , &.on-assignment > div , &.on-holiday > div { padding: 1em 2em 30% 0; }
     }
 }
 
@@ -35,7 +35,7 @@
         }
     }
     .status {
-        > div { padding: 1em 2em 50% 0; }
+        &.is-available > div , &.on-assignment > div , &.on-holiday > div { padding: 1em 2em 50% 0; }
         .cta {
             width: 70%;
             font-size: 3.2em;
@@ -92,7 +92,7 @@
         h1 { font-size: 6em; }
         h2 { font-size: 2em; }
 
-        > div { padding: 1em 2em 25% 0; }
+        &.is-available > div , &.on-assignment > div , &.on-holiday > div { padding: 1em 2em 25% 0; }
         > div ~ div { padding: 0; }
     }
 }
@@ -104,10 +104,10 @@
 
 @media screen and (max-width: 550px) {
     .status {
-        > div {
-            background-image: url('../../images/backdrop-available.png');
-            padding: 1em 2em 25% 0;
-        }
+
+        &.is-available > div { background-image: url('../../images/backdrop-available.png'); }
+
+        &.is-available > div , &.on-assignment > div , &.on-holiday > div { padding: 1em 2em 25% 0; }
 
         > div ~ div { padding: 0; }
 
@@ -146,7 +146,7 @@
 
 @media screen and (max-width: 400px) {
     .status {
-        > div { padding: 1em 2em 20% 0; }
+        &.is-available > div , &.on-assignment > div , &.on-holiday > div { padding: 1em 2em 20% 0; }
         > div ~ div { padding: 0 2em 0 0; }
         .alex { width: 40%; }
     }
@@ -167,7 +167,7 @@
     }
 
     .status {
-        > div { padding: 0 0 25% 0; }
+        &.is-available > div , &.on-assignment > div , &.on-holiday > div { padding: 0 0 25% 0; }
         header { text-align: left; }
         h1 {
             font-size: 3.5em;
@@ -206,7 +206,7 @@
 
     .status {
         height: auto;
-        > div { padding: 0 0 25% 0; }
+        &.is-available > div , &.on-assignment > div , &.on-holiday > div { padding: 0 0 25% 0; }
         > div ~ div { padding: 0; }
         .alex {
             padding: 1em;

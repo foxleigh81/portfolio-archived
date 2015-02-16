@@ -1,30 +1,31 @@
 <?php
     // Options are 'available', 'on-assignment' and 'on-holiday';
-    $set_status = "available"
+    $set_status = "on-assignment";
 
     switch ($set_status) {
         case 'available':
             $title = "Currently available for UX contracts";
             $description = "I am a highly skilled and experienced UI developer and usability consultant. I am available for contracts in the London area.";
+            $cta_text = "<p>I'm <strong>currently available</strong> for projects in the <strong>London</strong> area</p>";
         break;
         case 'on-assignment':
-            $title = "Currently available for UX contracts";
-            $description = "I am a highly skilled and experienced UI developer and usability consultant. I am available for contracts in the London area.";
-            $freeDate = ''
+            $freeDate = '02/03/2015'; //DD/MM/YYYY
+            $title = "UX developer from London";
+            $description = "I am a highly skilled and experienced UI developer and usability consultant. I am currently on assignment and expect to be available for contract on " . $freeDate;
+            $cta_text = "<p>I'm currently <strong>on assignment</strong>. I expect to be free for contracts on $freeDate</p>";
         break;
         case 'on-holiday':
-            $title = "Currently available for UX contracts";
+            $freeDate = ''; //DD/MM/YYYY
+            $title = "UX developer from London";
             $description = "I am a highly skilled and experienced UI developer and usability consultant. I am available for contracts in the London area.";
-            $freeDate = ''
+            $cta_text = "<p>I am currently taking a break from contracting. Don't worry, I'll be available again soon.</p>";
         break;
     }
 
-    
     $canonical = "index.php";
-
     require_once('includes/header.php');
 ?>
-    <section class="status is-available">
+    <section class="status is-<?php echo $set_status; ?>">
         <div>
             <ul class="social">
                 <li><a class="fa fa-behance-square" title="Check me out on Behance" href="https://www.behance.net/alexward1981/"><span>Behance</span></a></li>
@@ -35,13 +36,13 @@
             </ul>
             <header role="banner">
                 <h1>I'm Alex</h1>
-                <h2>I design and build <strong>UX focused</strong> websites</h2>
+                <h2>I build <strong>usability focused</strong> websites</h2>
             </header>
         </div>
-        <img class="alex" src="static/images/alex-available.svg" alt="An illustration of me, Alex Ward.">
+        <img class="alex" src="static/images/alex-<?php echo $set_status; ?>.svg" alt="An illustration of me, Alex Ward.">
         <div>
             <div class="cta">
-                <p>I'm <strong>currently available</strong> for projects in the <strong>London</strong> area</p>
+                <?php echo $cta_text; ?>
                 <a href="#contact" class="button">Get in touch</a>
                 <a href="https://www.dropbox.com/s/arxwap21eqkw2h3/AlexWard-ContractorCV.docx?dl=0" class="button">Download CV</a>
             </div>
