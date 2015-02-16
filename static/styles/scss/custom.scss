@@ -141,23 +141,31 @@ section {
         .button {
             display: inline-block;
             margin-top: 0.5em;
-            color: #659758;
         }
     }
 
     &.is-available {
         .alex { width: 20%; }
-        .cta { width: 80%; }
+        .cta { 
+            width: 80%; 
+            .button { color: #659758; }
+        }
     }
 
     &.is-on-assignment {
         .alex { width: 35%; }
-        .cta { width: 65%; }
+        .cta { 
+            width: 65%; 
+            .button { color: #314F6A; }
+        }
     }
 
     &.is-on-holiday {
         .alex { width: 20%; }
-        .cta { width: 80%; }
+        .cta { 
+            width: 80%; 
+            .button { color: #659758; }
+        }
     }
 }
 

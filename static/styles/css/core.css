@@ -262,20 +262,25 @@ section {
     font-size: 4em; }
     .status .cta .button {
       display: inline-block;
-      margin-top: 0.5em;
-      color: #659758; }
+      margin-top: 0.5em; }
   .status.is-available .alex {
     width: 20%; }
   .status.is-available .cta {
     width: 80%; }
+    .status.is-available .cta .button {
+      color: #659758; }
   .status.is-on-assignment .alex {
     width: 35%; }
   .status.is-on-assignment .cta {
     width: 65%; }
+    .status.is-on-assignment .cta .button {
+      color: #314F6A; }
   .status.is-on-holiday .alex {
     width: 20%; }
   .status.is-on-holiday .cta {
     width: 80%; }
+    .status.is-on-holiday .cta .button {
+      color: #659758; }
 
 .skills {
   background-color: #3D82CD; }
