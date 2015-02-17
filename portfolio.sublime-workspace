@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"free",
+				"freeDate"
+			],
+			[
 				"di",
 				"display"
 			],
@@ -51,7 +55,15 @@
 			"file": "static/styles/scss/custom.scss",
 			"settings":
 			{
-				"buffer_size": 4851,
+				"buffer_size": 9362,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/styles/scss/responsive.scss",
+			"settings":
+			{
+				"buffer_size": 5105,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,7 +71,7 @@
 			"file": "static/images/backdrop-available.svg",
 			"settings":
 			{
-				"buffer_size": 11996,
+				"buffer_size": 2515795,
 				"line_ending": "Windows"
 			}
 		},
@@ -67,7 +79,7 @@
 			"file": "static/styles/scss/classes.scss",
 			"settings":
 			{
-				"buffer_size": 750,
+				"buffer_size": 826,
 				"line_ending": "Unix"
 			}
 		},
@@ -75,7 +87,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 12496,
+				"buffer_size": 12491,
 				"line_ending": "Unix"
 			}
 		},
@@ -169,6 +181,10 @@
 	],
 	"file_history":
 	[
+		"/Users/alexward/dev/portfolio/static/images/alex-on-assignment.svg",
+		"/Users/alexward/dev/portfolio/partials/is-available.php",
+		"/Users/alexward/dev/portfolio/partials/on-holiday.php",
+		"/Users/alexward/dev/portfolio/partials/on-assignment.php",
 		"/Users/alexward/dev/portfolio/static/images/alex-phone.svg",
 		"/Users/alexward/dev/portfolio/static/images/alex-blushing.svg",
 		"/Users/alexward/dev/portfolio/static/images/alex-tables.svg",
@@ -259,7 +275,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -268,15 +284,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4851,
+						"buffer_size": 9362,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4851,
-								4851
+								3502,
+								3502
 							]
 						],
 						"settings":
@@ -286,55 +302,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3122.0,
+						"translation.y": 1689.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "static/images/backdrop-available.svg",
+					"file": "static/styles/scss/responsive.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11996,
+						"buffer_size": 5105,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								148,
-								148
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "static/styles/scss/classes.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 750,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								638,
-								638
+								2911,
+								2911
 							]
 						],
 						"settings":
@@ -342,6 +330,35 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1607.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "static/images/backdrop-available.svg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2515795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -352,19 +369,49 @@
 				},
 				{
 					"buffer": 3,
-					"file": "index.php",
+					"file": "static/styles/scss/classes.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12496,
+						"buffer_size": 826,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3550,
-								3550
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12491,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2611,
+								2611
 							]
 						],
 						"settings":
@@ -374,14 +421,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 17.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "static/images/alex-phone.svg",
 					"semi_transient": false,
 					"settings":
@@ -406,7 +453,7 @@
 						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
