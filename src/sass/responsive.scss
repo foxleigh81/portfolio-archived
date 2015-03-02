@@ -1,0 +1,237 @@
+/* This is where all media queries are held */
+@media screen and (min-width: 1080px) {
+    .status {
+        &.is-available > div , &.on-assignment > div , &.on-holiday > div { padding: 1em 2em 25% 0; }
+        .cta {
+            font-size: 5em;
+        }
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .status {
+        &.is-available > div , &.on-assignment > div , &.on-holiday > div { padding: 1em 2em 30% 0; }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .status {
+        .alex { width: 27%; }
+    }
+
+    .skills {
+        img { width: 40%;margin: 1em; }
+        .skill-table { clear: both; }
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .social li {
+        display: block;
+        a {
+            margin-bottom: 0.2em;
+            margin-left: 0;
+        }
+        span { display: none; }
+    }
+    .status {
+        &.is-available > div , &.on-assignment > div , &.on-holiday > div { padding: 1em 2em 50% 0; }
+        .cta {
+            width: 70%;
+            font-size: 3.2em;
+        }
+    }
+
+    .contact {
+        > img { display: none; }
+        .col { width: 49%; }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .skills h2, .brands h2, .references h2, .contact h2 {
+        text-align: center;
+        font-size: 2.8em;
+    }
+    .status {
+        .cta {
+            font-size: 4.5em;
+        }
+    }
+    .skills {
+        img { width: 90%; }
+        .skill-table {
+            margin: 0;
+            clear: both;
+            display: block;
+
+            .cell {
+                display: block;
+                width: 100%;
+                li {
+                    display: inline-block;
+                    width: 48%;
+                    padding-right: 1.5%;
+                }
+
+            }
+        }
+    }
+
+    footer {
+        div, div.info {
+            float:none;
+            text-align: center;
+            margin-bottom: 0.5em;
+        }
+    }
+}
+
+@media screen and (max-width: 750px) and (max-height: 870px) {
+    .status {
+        h1 { font-size: 6em; }
+        h2 { font-size: 2em; }
+
+        &.is-available > div , &.on-assignment > div , &.on-holiday > div { padding: 1em 2em 25% 0; }
+        > div ~ div { padding: 0; }
+    }
+}
+
+
+/* Mobile breakpoints are a little different to the above, */
+/* they assume a slower connection and replace large SVGs with pngs, */
+/* smaller svgs are still used as normal. */
+
+@media screen and (max-width: 550px) {
+    .status {
+
+        &.is-available > div { background-image: url('../../images/backdrop-available.png'); }
+
+        &.is-available > div , &.on-assignment > div , &.on-holiday > div { padding: 1em 2em 25% 0; }
+
+        > div ~ div { padding: 0; }
+
+        h1 {
+            font-size: 5em;
+            font-weight: bold;
+        }
+
+        h2 { font-size: 3em; }
+
+        .alex { width: 35%; }
+        .cta { font-size: 3em; }
+    }
+
+    .brands {
+        li { flex-basis: 49%;}
+    }
+    .references {
+        img { display: none; }
+        ul { width: 100%; }
+    }
+
+    .contact {
+        .col { width: 100%; }
+    }
+
+    footer {
+        p {
+            text-align: center;
+            margin-bottom: 0.5em;
+        }
+
+        a { color: #fff; }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .status {
+        &.is-available > div , &.on-assignment > div , &.on-holiday > div { padding: 1em 2em 20% 0; }
+        > div ~ div { padding: 0 2em 0 0; }
+        .alex { width: 40%; }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .social {
+        background:#333;
+        padding: 0.5em;
+        text-align: center;
+        position: static;
+        right:0;
+
+        li {
+            display: inline-block;
+            a { margin: 0 0.3em; }
+        }
+    }
+
+    .status {
+        &.is-available > div , &.on-assignment > div , &.on-holiday > div { padding: 0 0 25% 0; }
+        header { text-align: left; }
+        h1 {
+            font-size: 3.5em;
+            font-weight: bold;
+        }
+        h2 { font-size: 1.5em; }
+        .alex { width: 25%; }
+        .cta {
+            position: relative;
+            bottom: 0;
+            padding-top: 0.2em;
+            font-size: 2em;
+        }
+        .button { font-size: 0.8rem; }
+    }
+    .brands, .references, .contact {
+        > img { display: none; }
+    }
+    .scrolly { font-size: 1.7em; }
+}
+
+@media screen and (max-height: 810px) and (orientation: landscape) {
+
+    .social {
+        background:#333;
+        padding: 0.5em;
+        text-align: center;
+        position: static;
+        right:0;
+
+        li {
+            display: inline-block;
+            a { margin: 0 0.3em; }
+        }
+    }
+
+    .status {
+        height: auto;
+        &.is-available > div , &.on-assignment > div , &.on-holiday > div { padding: 0 0 25% 0; }
+        > div ~ div { padding: 0; }
+        .alex {
+            padding: 1em;
+            float: right;
+            position: static;
+            width: 15%;
+        }
+
+        .cta { width: 100%; }
+
+        .scrolly { display: none; }
+    }
+
+    .skills {
+        > img {
+            width: 30%;
+        }
+    }
+
+    .references {
+        img {
+            width: 16%;
+            margin: 2em 0 0 1em;
+        }
+    }
+
+}
