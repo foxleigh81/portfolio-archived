@@ -1,1 +1,5 @@
-null
+/public/static/.DS_Store
+/.sass-cache
+/node_modules
+/public/static/scripts
+/public/static/css
