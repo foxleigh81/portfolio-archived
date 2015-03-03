@@ -83,7 +83,6 @@
             <div class="cell max-3">
                 <h2>Competent</h2>
                 <ul>
-                    <li>Angular.js</li>
                     <li>OO PHP</li>
                     <li>PHP MVC Frameworks (eg Symfony 2, Laravel etc...)</li>
                     <li>CMS Templating (Drupal, EpiServer, Umbraco)</li>
