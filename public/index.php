@@ -64,7 +64,7 @@
                     <li>xHTML/HTML5</li>
                     <li>CSS (including CSS3)</li>
                     <li>SASS/LESS</li>
-                    <li>jQuery</li>
+                    <li>JavaScript/jQuery</li>
                     <li>Procedural PHP</li>
                     <li>Git</li>
                 </ul>
@@ -73,7 +73,6 @@
                 <h2>Middle-weight</h2>
                 <ul>
                     <li>MySQL</li>
-                    <li>Pure JavaScript</li>
                     <li>Build Systems (e.g. Jenkins)</li>
                     <li>Server Management</li>
                     <li>CMS Templating (Perch &amp; Wordpress)</li>

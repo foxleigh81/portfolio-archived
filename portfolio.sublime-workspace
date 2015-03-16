@@ -1,0 +1,375 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Cha",
+				"changeMessage"
+			],
+			[
+				"goo",
+				"goodbyeMsg"
+			],
+			[
+				"hello",
+				"Hello"
+			],
+			[
+				"bgc",
+				"bgc	background-color: #${1:fff};"
+			],
+			[
+				"tsh",
+				"tsh	text-shadow: ${1:hoff} ${2:voff} ${3:blur} ${4:#000};"
+			],
+			[
+				"ti",
+				"ti:-	text-indent:-9999px"
+			],
+			[
+				"tag",
+				"target"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"n",
+				"nowrap"
+			],
+			[
+				"an",
+				"animate"
+			],
+			[
+				"span",
+				"spanWidth"
+			],
+			[
+				"fis",
+				"first-child"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"body",
+				"bodyTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/index.html",
+			"settings":
+			{
+				"buffer_size": 1202,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/app/default.view.html",
+			"settings":
+			{
+				"buffer_size": 9,
+				"line_ending": "Unix",
+				"name": "default.view.html"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 110.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/alexward/dev/portfolio",
+		"/Users/alexward/dev/portfolio/public",
+		"/Users/alexward/dev/portfolio/public/app",
+		"/Users/alexward/dev/portfolio/src",
+		"/Users/alexward/dev/portfolio/src/sass"
+	],
+	"file_history":
+	[
+		"/Users/alexward/dev/portfolio/src/sass/core.scss",
+		"/Users/alexward/dev/portfolio/public/index.php",
+		"/Users/alexward/dev/portfolio/.gitignore",
+		"/Users/alexward/dev/digital-fusion/public/wp-content/themes/sueva/core/templates/masonry.php",
+		"/Users/alexward/dev/digital-fusion/public/wp-config.php",
+		"/Users/alexward/dev/digital-fusion/public/wp-content/themes/sueva/core/templates/custom-masonry.php",
+		"/Users/alexward/dev/digital-fusion/public/wp-content/themes/sueva/core/post-formats/standard-format.php",
+		"/Users/alexward/dev/digital-fusion/public/wp-content/themes/sueva/layouts/archive-masonry-sidebar.php",
+		"/Users/alexward/dev/digital-fusion/public/wp-content/themes/sueva/archive-masonry.php",
+		"/Users/alexward/dev/digital-fusion/public/wp-content/themes/sueva/core/templates/readmore.php",
+		"/Users/alexward/dev/digital-fusion/public/.htaccess",
+		"/Users/alexward/dev/digital-fusion/public/wp-content/themes/sueva/core/templates/after-content.php",
+		"/Users/alexward/dev/digital-fusion/public/static/scripts/core.min.js",
+		"/Users/alexward/dev/digital-fusion/src/js/core.js",
+		"/Users/alexward/dev/digital-fusion/public/wp-includes/js/tinymce/plugins/wpeditimage/plugin.js",
+		"/Users/alexward/dev/digital-fusion/public/wp-content/themes/sueva/footer.php",
+		"/Users/alexward/dev/digital-fusion/public/wp-includes/js/tinymce/plugins/wpeditimage/plugin.min.js",
+		"/Users/alexward/dev/digital-fusion/public/wp-content/themes/sueva/core/shortcodes/threecolumns.php",
+		"/Users/alexward/dev/digital-fusion/public/wp-includes/media.php",
+		"/Users/alexward/dev/digital-fusion/public/wp-content/themes/sueva/archive.php",
+		"/Users/alexward/dev/digital-fusion/public/wp-content/themes/sueva/archive-blog.php",
+		"/Users/alexward/dev/digital-fusion/public/wp-content/themes/sueva/masonry-three-columns.php",
+		"/Users/alexward/dev/digital-fusion/public/static/scripts/core.js",
+		"/Users/alexward/dev/digital-fusion/public/wp-content/themes/sueva/core/main.php",
+		"/Users/alexward/dev/digital-fusion/public/wp-content/themes/sueva/core/sliders/nivoslider.php",
+		"/Users/alexward/.ssh/known_hosts",
+		"/Users/alexward/.oh-my-zsh/themes/xiong-chiamiov.zsh-theme",
+		"/Users/alexward/.oh-my-zsh/themes/avit.zsh-theme",
+		"/Users/alexward/.zshrc",
+		"/Users/alexward/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/alexward/.oh-my-zsh/themes/agnoster.zsh-theme",
+		"/Users/alexward/.oh-my-zsh/themes/volcanic.zsh-theme",
+		"/Users/alexward/.oh-my-zsh/themes/apple.zsh-theme",
+		"/Users/alexward/.oh-my-zsh/themes/3den.zsh-theme",
+		"/Users/alexward/.ssh/id_rsa.pub",
+		"/Users/alexward/dev/portfolio/public/static/scripts/core.js",
+		"/Users/alexward/dev/portfolio/archive/includes/header.php",
+		"/Users/alexward/dev/portfolio/public/includes/header.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"/Users/alexward/dev/digital-fusion/public/wp-content/themes/sueva",
+			"/Users/alexward/dev/digital-fusion/public/",
+			"/Users/alexward/dev/digital-fusion/public/wp-content/themes/sueva",
+			"/Users/alexward/dev/digital-fusion/public/",
+			"/Users/alexward/dev/digital-fusion/public/wp-content/themes/sueva"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"do_action",
+			"get_author_posts_url",
+			"archive",
+			"class=\"archive",
+			"span4",
+			"pin-article",
+			"iframe",
+			"wp-caption",
+			"class=\"wp-caption",
+			"author",
+			"archive author",
+			"blog",
+			"masonry-brick",
+			".full",
+			"wip_after_content",
+			"more",
+			"wp-post",
+			"pin-container",
+			"thumb",
+			"fa fa-tags"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								650,
+								650
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/app/default.view.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "default.view.html",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 22.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "portfolio.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 296.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
