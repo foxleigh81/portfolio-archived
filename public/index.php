@@ -1,6 +1,6 @@
 <?php
     // Options are 'available', 'on-assignment' and 'on-holiday';
-    $set_status = "available";
+    $set_status = "on-assignment";
 
     switch ($set_status) {
         case 'available':
@@ -9,7 +9,7 @@
             $cta_text = "<p>I'm <strong>currently available</strong> for projects in the <strong>London</strong> area</p>";
         break;
         case 'on-assignment':
-            $freeDate = '02/03/2015'; //DD/MM/YYYY
+            $freeDate = '29/06/2015'; //DD/MM/YYYY
             $title = "UX developer from London";
             $description = "I am a highly skilled and experienced UI developer and usability consultant. I am currently on assignment and expect to be available for contract on " . $freeDate;
             $cta_text = "<p>I'm currently <strong>on assignment</strong>. I expect to be free for contracts on $freeDate</p>";
