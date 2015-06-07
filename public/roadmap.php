@@ -25,12 +25,12 @@
                     <li><a href="static/styles/scss/reset.scss">reset.scss</a></li>
                 </ul>
                 <p>The goal of this website is not only to showcase my abilities but also to help me develop more advanced skills.</p>
-                <p>At the moment, the site is in phase one, for this step I started to refine my illustration abilities and made this the first site I've built which properly utilises SVG images (before I've just used them here and there).</p>
-                <p><strong>Phase 2</strong> will consist of the following:</p>
+                <p>At the moment, the site is in phase one, for this step I started to refine my illustration abilities. This is the first site I've built which properly utilises SVG images (before I've just used them here and there).</p>
+                <p><strong>Subsequent phases</strong> will consist of the following:</p>
                 <ul>
                     <li>SVG animations</li>
                     <li>JavaScript animations</li>
-                    <li>even more refined illustrations</li>
+                    <li>Even more refined illustrations</li>
                     <li>Angular.JS</li>
                     <li>More content</li>
                     <li>A Portfolio section</li>

@@ -9,7 +9,7 @@
             $cta_text = "<p>I'm <strong>currently available</strong> for projects in the <strong>London</strong> area</p>";
         break;
         case 'on-assignment':
-            $freeDate = '29/06/2015'; //DD/MM/YYYY
+            $freeDate = '17/07/2015'; //DD/MM/YYYY
             $title = "UX developer from London";
             $description = "I am a highly skilled and experienced UI developer and usability consultant. I am currently on assignment and expect to be available for contract on " . $freeDate;
             $cta_text = "<p>I'm currently <strong>on assignment</strong>. I expect to be free for contracts on $freeDate</p>";
@@ -25,7 +25,7 @@
     $canonical = "index.php";
     require_once('includes/header.php');
 ?>
-    <section class="status is-<?php echo $set_status; ?>">
+    <section class="status is-available">
         <div>
             <ul class="social jstarget-social">
                 <li><a class="fa fa-behance-square" title="Check me out on Behance" href="https://www.behance.net/alexward1981/"><span>My Portfolio</span></a></li>
@@ -36,10 +36,10 @@
             </ul>
             <header role="banner">
                 <h1>I'm Alex</h1>
-                <h2>I'm a Front-End Engineer</h2>
+                <h2>I'm a Front-End Developer</h2>
             </header>
         </div>
-        <img class="alex" src="static/images/alex-<?php echo $set_status; ?>.svg" alt="An illustration of me, Alex Ward.">
+        <img class="alex" src="static/images/alex-available.svg" alt="An illustration of me, Alex Ward.">
         <div>
             <div class="cta">
                 <?php echo $cta_text; ?>
@@ -63,28 +63,28 @@
                     <li>Responsive Design</li>
                     <li>xHTML/HTML5</li>
                     <li>CSS (including CSS3)</li>
-                    <li>SASS/LESS</li>
-                    <li>JavaScript/jQuery</li>
-                    <li>Procedural PHP</li>
+                    <li>SASS/LESS/Stylus</li>
+                    <li>jQuery</li>
                     <li>Git</li>
+                    <li>Gulp/Grunt</li>
                 </ul>
             </div>
             <div class="cell max-3">
                 <h2>Middle-weight</h2>
                 <ul>
-                    <li>MySQL</li>
-                    <li>Build Systems (e.g. Jenkins)</li>
                     <li>Server Management</li>
-                    <li>CMS Templating (Perch &amp; Wordpress)</li>
+                    <li>CMS Templating</li>
+                    <li>Procedural PHP</li>
                     <li>Illustration</li>
                 </ul>
             </div>
             <div class="cell max-3">
                 <h2>Competent</h2>
                 <ul>
+                    <li>MySQL</li>
                     <li>OO PHP</li>
-                    <li>PHP MVC Frameworks (eg Symfony 2, Laravel etc...)</li>
-                    <li>CMS Templating (Drupal, EpiServer, Umbraco)</li>
+                    <li>Angular JS</li>
+                    <li>PHP MVC Frameworks</li>
                     <li>3D Modelling</li>
                 </ul>
             </div>
