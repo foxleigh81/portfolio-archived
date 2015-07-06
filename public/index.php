@@ -9,10 +9,10 @@
             $cta_text = "<p>I'm <strong>currently available</strong> for projects in the <strong>London</strong> area</p>";
         break;
         case 'on-assignment':
-            $freeDate = '17/07/2015'; //DD/MM/YYYY
+            $freeDate = 'October'; //DD/MM/YYYY
             $title = "UX developer from London";
-            $description = "I am a highly skilled and experienced UI developer and usability consultant. I am currently on assignment and expect to be available for contract on " . $freeDate;
-            $cta_text = "<p>I'm currently <strong>on assignment</strong>. I expect to be free for contracts on $freeDate</p>";
+            $description = "I am a highly skilled and experienced UI developer and usability consultant. I am currently on assignment and expect to be available for contract in " . $freeDate;
+            $cta_text = "<p>I'm currently <strong>on assignment</strong>. I expect to be free for contracts in $freeDate</p>";
         break;
         case 'on-holiday':
             $freeDate = ''; //DD/MM/YYYY
