@@ -9,9 +9,9 @@
             $cta_text = "<p>I'm <strong>currently available</strong> for projects in the <strong>London</strong> area</p>";
         break;
         case 'on-assignment':
-            $freeDate = 'October'; //DD/MM/YYYY
+            $freeDate = 'from January the 4th'; //DD/MM/YYYY
             $title = "UX developer from London";
-            $description = "I am a highly skilled and experienced UI developer and usability consultant. I am currently on assignment and expect to be available for contract in " . $freeDate;
+            $description = "I am a highly skilled and experienced UI developer and usability consultant. I am currently on assignment and expect to be available for contract " . $freeDate;
             $cta_text = "<p>I'm currently <strong>on assignment</strong>. I expect to be free for contracts in $freeDate</p>";
         break;
         case 'on-holiday':
@@ -56,7 +56,7 @@
         </div>
         <div class="skill-table">
             <div class="cell max-3">
-                <h2>Expert</h2>
+                <h2>Advanced</h2>
                 <ul>
                     <li>Usability (UX)</li>
                     <li>Accessibility</li>
@@ -64,7 +64,7 @@
                     <li>xHTML/HTML5</li>
                     <li>CSS (including CSS3)</li>
                     <li>SASS/LESS/Stylus</li>
-                    <li>jQuery</li>
+                    <li>JavaScript</li>
                     <li>Git</li>
                     <li>Gulp/Grunt</li>
                 </ul>
@@ -72,6 +72,7 @@
             <div class="cell max-3">
                 <h2>Middle-weight</h2>
                 <ul>
+                    <li>Handlebars/mustache</li>
                     <li>Server Management</li>
                     <li>CMS Templating</li>
                     <li>Procedural PHP</li>
@@ -79,11 +80,11 @@
                 </ul>
             </div>
             <div class="cell max-3">
-                <h2>Competent</h2>
+                <h2>Competent Beginner</h2>
                 <ul>
                     <li>MySQL</li>
                     <li>OO PHP</li>
-                    <li>Angular JS</li>
+                    <li>Angular JS / ReactJS</li>
                     <li>PHP MVC Frameworks</li>
                     <li>3D Modelling</li>
                 </ul>
@@ -148,10 +149,10 @@
         <img src="static/images/alex-phone.svg" alt="An illustration of me, Alex Ward holding a cup of tea and talking on the phone.">
         <div class="col max-2">
             <div class="text-wrap">
-                <p>I’ve recently moved to the amazing city of London and I’m currently available for contract work. If you wish to hire me for a contract or  project, please contact me either using the form or the details below.</p>
+                <p>If you wish to hire me for a contract or project, please contact me either using the form or the details below.</p>
                 <div class="details">
-                    <span><strong>Telephone:</strong> <a href="tel:07538943004" itemprop="telephone">07538 943004</a></span>
-                    <span><strong>Email:</strong> <a href="mailto:alex@alexward.me.uk" itemprop="email">alex@alexward.me.uk</a></span>
+                    <span><strong>Telephone:</strong> <a href="tel:+442030867609x1" itemprop="telephone">0203 0867 609</a></span>
+                    <span><strong>Email:</strong> <a href="mailto:hireme@bbqdigital.com" itemprop="email">hireme@bbqdigital.com</a></span>
                     <span><strong>Skype:</strong> alexward1981</span>
                     <span><strong>Carrier Pigeon:</strong> No longer available</span>
                 </div>
